@@ -266,7 +266,7 @@ svg.on("mousemove", function() {
   svg.selectAll("path").attr("d", path);
 });
 
-d3.json("world-110m.json", function(error, world) {
+d3.json("https://d3js.org/world-110m.v1.json", function(error, world) {
   if (error) throw error;
 
   svg.append("path")
