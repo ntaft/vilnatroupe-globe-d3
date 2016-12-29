@@ -1598,23 +1598,26 @@ const vt = JSON.parse(
 ]`
 );
 
+// converts to GeoJSON - note that lat and long are reversed from US format.
 '{ "type": "FeatureCollection", "features": ['
 let vtArr = [];
 vt.forEach((i) => {
  vtArr.push(`
-      { "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [${i.Longitude}, ${i.Latitude}]},
-        "properties": {
-          "Date": "${i.Date}",
-          "Troupe": "${i.Troupe}",
-          "Event": "${i.Event}",
-          "Play": "${i.Play}",
-          "Author": "${i.Author}",
-          "Location": "${i.Location}"
-          "Notes": "${i.Notes || ''}"
-        }`
-     );
-  });
-}
-const vtGeoData = `{ "type": "FeatureCollection", "features": [${vtArr.join(',')}]}`
+  { "type": "Feature",
+    "geometry": {"type": "Point", "coordinates": [${i.Longitude}, ${i.Latitude}]},
+    "properties": {
+      "Date": "${i.Date}",
+      "Troupe": "${i.Troupe}",
+      "Event": "${i.Event}",
+      "Play": "${i.Play}",
+      "Author": "${i.Author}",
+      "Location": "${i.Location}",
+      "Notes": "${i.Notes}"
+    }
+  }`
+  );
+});
+
+const vtGeoData = `{ "type": "FeatureCollection", "features": [${vtArr.join(',')}]}`;
+console.log (vtGeoData);
 
