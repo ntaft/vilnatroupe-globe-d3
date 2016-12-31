@@ -1,0 +1,26 @@
+{
+  "name": "vilnatroupe-globe-d3",
+  "version": "1.0.0",
+  "description": "data viz of VT travel locations, dates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntaft/vilnatroupe-globe-d3.git"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "Nick Taft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntaft/vilnatroupe-globe-d3/issues"
+  },
+  "homepage": "https://github.com/ntaft/vilnatroupe-globe-d3#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

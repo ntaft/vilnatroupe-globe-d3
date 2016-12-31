@@ -7,9 +7,10 @@
       "Event": "First performance",
       "Play": "Der landsman",
       "Author": "Sholem Ash",
-      "Location": "Circus Theater on Lukishkes (Lukiskiu) Street, Vilna"
+      "Location": "Circus Theater on Lukishkes (Lukiskiu) Street, Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.268536, 54.692194]},
     "properties": {
@@ -18,9 +19,10 @@
       "Event": "Second performance",
       "Play": "Farvorfen vinkl",
       "Author": "Peretz Hirschbein",
-      "Location": "Circus Theater on Lukishkes (Lukisciu) Street, Vilna"
+      "Location": "Circus Theater on Lukishkes (Lukisciu) Street, Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.284005, 54.686169]},
     "properties": {
@@ -29,9 +31,10 @@
       "Event": "Moved to Vilna State Theater Building",
       "Play": "Puste kretshme",
       "Author": "Peretz Hirschbein",
-      "Location": "Vilna State Theater, 4 Gediminas Avenue, Vilna"
+      "Location": "Vilna State Theater, 4 Gediminas Avenue, Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.891974, 54.896612]},
     "properties": {
@@ -40,9 +43,10 @@
       "Event": "First tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Kovno"
+      "Location": "Kovno",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.93124, 54.111125]},
     "properties": {
@@ -51,9 +55,10 @@
       "Event": "First tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Subalk (Gmine Suwałki, Poland)"
+      "Location": "Subalk (Gmine Suwałki, Poland)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
@@ -62,9 +67,10 @@
       "Event": "First tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Grodno (Belarus)"
+      "Location": "Grodno (Belarus)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
@@ -73,9 +79,10 @@
       "Event": "First tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Bialystok"
+      "Location": "Bialystok",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -84,9 +91,10 @@
       "Event": "Sukkot - First performance in Warsaw",
       "Play": "",
       "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": "Dovid Herman joins the troupe during this tour?"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -95,9 +103,10 @@
       "Event": "Yubileum Evening in honor of 1 year anniversary held in Warsaw",
       "Play": "Revue of their previous productions",
       "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -106,9 +115,10 @@
       "Event": "2nd tour - Lodz and the provinces",
       "Play": "Opened with Dorfsyung",
       "Author": "Leon Kobrin",
-      "Location": "Lodz"
+      "Location": "Lodz",
       "Notes": "6 weeks in Lodz"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -117,9 +127,10 @@
       "Event": "2nd tour - Lodz and the provinces",
       "Play": "",
       "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)"
+      "Location": "Polish Provinces (precise locations unknown)",
       "Notes": "Follow previous tour to map"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.205886, 51.767722]},
     "properties": {
@@ -128,9 +139,10 @@
       "Event": "2nd tour - Lodz and the provinces",
       "Play": "",
       "Author": "",
-      "Location": "Kazimierz"
+      "Location": "Kazimierz",
       "Notes": "Added many actors from the Polish dramatic schools"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.568438, 51.246455]},
     "properties": {
@@ -139,9 +151,10 @@
       "Event": "2nd tour - Lodz and the provinces",
       "Play": "",
       "Author": "",
-      "Location": "Lublin"
+      "Location": "Lublin",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -150,9 +163,10 @@
       "Event": "2nd tour - Lodz and the provinces",
       "Play": "",
       "Author": "",
-      "Location": "Lodz"
+      "Location": "Lodz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -161,9 +175,10 @@
       "Event": "Azro/Alomis leave the O VT and found their own company",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -172,9 +187,10 @@
       "Event": "Mazos troupe returns to Warsaw",
       "Play": "Niveyle and Tkias Kef",
       "Author": "Peretz Hirschbein",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": "Mikhl Vaykhert joins the troupe. Some sources (Vayslits - Manger/Perenson) say that Herman joined the Troupe now."
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -183,9 +199,10 @@
       "Event": "Polish army takes Vilna, AA troupe dissolves",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
@@ -194,9 +211,10 @@
       "Event": "Azro and Alomis to Grodne",
       "Play": "",
       "Author": "",
-      "Location": "Grodno (Belarus)"
+      "Location": "Grodno (Belarus)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
@@ -205,9 +223,10 @@
       "Event": "Azro and Alomis to Bialystok",
       "Play": "",
       "Author": "",
-      "Location": "Bialystok"
+      "Location": "Bialystok",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -216,9 +235,10 @@
       "Event": "Azro/Alomis found a theater society in Vilna, with former members of the troupe",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.891974, 54.896612]},
     "properties": {
@@ -227,9 +247,10 @@
       "Event": "Travel to Kovne after Bolshevik invasion",
       "Play": "",
       "Author": "",
-      "Location": "Kovno"
+      "Location": "Kovno",
       "Notes": "Dovid Herman briefly joins AA, then returns to Warsaw after the Bolshevik invasion"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -238,9 +259,10 @@
       "Event": "Premiere of The Dybbuk",
       "Play": "The Dybbuk",
       "Author": "Sh. Ansky",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -249,9 +271,10 @@
       "Event": "Judisches Kunstler Theater founded in Berlin",
       "Play": "",
       "Author": "",
-      "Location": "Berlin"
+      "Location": "Berlin",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [13.404062, 52.508081]},
     "properties": {
@@ -260,9 +283,10 @@
       "Event": "Began performing as the Vilna Troupe in Berlin",
       "Play": "",
       "Author": "",
-      "Location": "Kommandantstrasse, Berlin, Germany"
+      "Location": "Kommandantstrasse, Berlin, Germany",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [12.371364, 51.339673]},
     "properties": {
@@ -271,9 +295,10 @@
       "Event": "Toured Germany",
       "Play": "",
       "Author": "",
-      "Location": "Leipzig"
+      "Location": "Leipzig",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [9.991981, 53.553447]},
     "properties": {
@@ -282,9 +307,10 @@
       "Event": "Toured Germany",
       "Play": "",
       "Author": "",
-      "Location": "Hamburg"
+      "Location": "Hamburg",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [6.959912, 50.940664]},
     "properties": {
@@ -293,9 +319,10 @@
       "Event": "Toured Germany",
       "Play": "",
       "Author": "",
-      "Location": "Cologne"
+      "Location": "Cologne",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [8.680506, 50.111512]},
     "properties": {
@@ -304,9 +331,10 @@
       "Event": "Toured Germany",
       "Play": "",
       "Author": "",
-      "Location": "Frankfurt"
+      "Location": "Frankfurt",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [12.924693, 50.832503]},
     "properties": {
@@ -315,9 +343,10 @@
       "Event": "Toured Germany",
       "Play": "",
       "Author": "",
-      "Location": "Chemnitz"
+      "Location": "Chemnitz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -326,9 +355,10 @@
       "Event": "Back to Berlin",
       "Play": "",
       "Author": "",
-      "Location": ""
+      "Location": "",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -337,9 +367,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "The Hague"
+      "Location": "The Hague",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.892222, 52.373056]},
     "properties": {
@@ -348,9 +379,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Amsterdam, Holland"
+      "Location": "Amsterdam, Holland",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
@@ -359,9 +391,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Antwerp, Belgium"
+      "Location": "Antwerp, Belgium",
       "Notes": "1922 in Belgium"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [2.350987, 48.856667]},
     "properties": {
@@ -370,9 +403,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Paris, France"
+      "Location": "Paris, France",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-0.134781, 51.51035]},
     "properties": {
@@ -381,9 +415,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Pavilion Theater in London"
+      "Location": "Pavilion Theater in London",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -392,9 +427,10 @@
       "Event": "Lodz tour",
       "Play": "",
       "Author": "",
-      "Location": "Lodz"
+      "Location": "Lodz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -403,9 +439,10 @@
       "Event": "Provinces tour",
       "Play": "",
       "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)"
+      "Location": "Polish Provinces (precise locations unknown)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.014036, 52.234393]},
     "properties": {
@@ -414,9 +451,10 @@
       "Event": "Return to Warsaw, Kaminski Theater",
       "Play": "",
       "Author": "",
-      "Location": "Kaminski Theater, Warsaw"
+      "Location": "Kaminski Theater, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -425,9 +463,10 @@
       "Event": "Tour of Lithuanian cities",
       "Play": "",
       "Author": "",
-      "Location": "Bialystok, Grodno, Lide, Vilna"
+      "Location": "Bialystok, Grodno, Lide, Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.016666, 49.85]},
     "properties": {
@@ -436,9 +475,10 @@
       "Event": "Lemberg",
       "Play": "",
       "Author": "",
-      "Location": "Lemberg (now Lviv)"
+      "Location": "Lemberg (now Lviv)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
@@ -447,9 +487,10 @@
       "Event": "Tour of Galitsiya (Galicia)",
       "Play": "",
       "Author": "",
-      "Location": "Galicia (Historic)"
+      "Location": "Galicia (Historic)",
       "Notes": "Started in each city with Vayters Shtumer"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [16.373819, 48.208174]},
     "properties": {
@@ -458,9 +499,10 @@
       "Event": "Performed in Vienna for 6 months at the Roland Theater",
       "Play": "",
       "Author": "",
-      "Location": "Roland Theater, Vienna"
+      "Location": "Roland Theater, Vienna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
@@ -469,9 +511,10 @@
       "Event": "Galitsiya (Galicia) and second splintering of the troupe",
       "Play": "",
       "Author": "",
-      "Location": "Galicia (Historic)"
+      "Location": "Galicia (Historic)",
       "Notes": "Several members left Mazos VT to join the Azro/Alomis VT in Berlin"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [10.541691, 51.900118]},
     "properties": {
@@ -480,9 +523,10 @@
       "Event": "Troupe reorganized after new members from the M troupe joined",
       "Play": "",
       "Author": "",
-      "Location": "Harzburg, Germany"
+      "Location": "Harzburg, Germany",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
@@ -491,9 +535,10 @@
       "Event": "Performed in Bucharest, Romania",
       "Play": "",
       "Author": "",
-      "Location": "Garden Zhitnitsa (Jigniţa), Bucharest, Romania"
+      "Location": "Garden Zhitnitsa (Jigniţa), Bucharest, Romania",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.892222, 52.373056]},
     "properties": {
@@ -502,9 +547,10 @@
       "Event": "Return to Holland",
       "Play": "",
       "Author": "",
-      "Location": "Amsterdam"
+      "Location": "Amsterdam",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
@@ -513,9 +559,10 @@
       "Event": "Return to Belgium",
       "Play": "",
       "Author": "",
-      "Location": "Antwerp"
+      "Location": "Antwerp",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
@@ -524,9 +571,10 @@
       "Event": "Traveled to NY at the invitation of Boris Thomashevsky",
       "Play": "",
       "Author": "",
-      "Location": "Manhattan, New York"
+      "Location": "Manhattan, New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [28.031044, 45.42572]},
     "properties": {
@@ -535,9 +583,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Galats (Galati)"
+      "Location": "Galats (Galati)",
       "Notes": "Unsure about the order! What would make the most sense?"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [27.218566, 47.267965]},
     "properties": {
@@ -546,9 +595,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Jassy"
+      "Location": "Jassy",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [28.841551, 47.026859]},
     "properties": {
@@ -557,9 +607,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Keshenev (now Chinisau, Moldova)"
+      "Location": "Keshenev (now Chinisau, Moldova)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.008217, 50.381083]},
     "properties": {
@@ -568,9 +619,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Belz"
+      "Location": "Belz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
@@ -579,9 +631,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Czernowitz (now Chernivitsi)"
+      "Location": "Czernowitz (now Chernivitsi)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.985876, 40.757286]},
     "properties": {
@@ -590,9 +643,10 @@
       "Event": "First Performances in New York",
       "Play": "The Dybbuk",
       "Author": "Sh. Ansky",
-      "Location": "Nora Bays Theater (Broadway and 44th), New York"
+      "Location": "Nora Bays Theater (Broadway and 44th), New York",
       "Notes": "Also: Irving Place Theater and Prospect Theater"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
@@ -601,9 +655,10 @@
       "Event": "Performed in Czernowitz",
       "Play": "",
       "Author": "",
-      "Location": "Czernowitz"
+      "Location": "Czernowitz",
       "Notes": "Until YT was banned in Czernowitz"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -612,9 +667,10 @@
       "Event": "First US Tour",
       "Play": "Yankel der shmid, grine felder",
       "Author": "",
-      "Location": "Bridgeport, CT"
+      "Location": "Bridgeport, CT",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -623,9 +679,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Wilmington, DE"
+      "Location": "Wilmington, DE",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -634,9 +691,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Baltimore, MD"
+      "Location": "Baltimore, MD",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -645,9 +703,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Irving Place Theater, New York, NY"
+      "Location": "Irving Place Theater, New York, NY",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -656,9 +715,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Kessler Theater, New York, NY"
+      "Location": "Kessler Theater, New York, NY",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -667,9 +727,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Lenox Theater, New York, NY"
+      "Location": "Lenox Theater, New York, NY",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -678,9 +739,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Lyceum Theater, Patterson, NJ"
+      "Location": "Lyceum Theater, Patterson, NJ",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -689,9 +751,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Academy of Music, Fall River MA"
+      "Location": "Academy of Music, Fall River MA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -700,9 +763,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Worcester Theatre, Worcester MA"
+      "Location": "Worcester Theatre, Worcester MA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -711,9 +775,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Boston, MA"
+      "Location": "Boston, MA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -722,9 +787,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Lawrence, MA"
+      "Location": "Lawrence, MA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -733,9 +799,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Boston, MA"
+      "Location": "Boston, MA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -744,9 +811,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Providence, RI"
+      "Location": "Providence, RI",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -755,9 +823,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Hartford, CT"
+      "Location": "Hartford, CT",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -766,9 +835,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Rochester, NY"
+      "Location": "Rochester, NY",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -777,9 +847,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Toronto, ON"
+      "Location": "Toronto, ON",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -788,9 +859,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Buffalo, NY"
+      "Location": "Buffalo, NY",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -799,9 +871,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Cleveland, OH"
+      "Location": "Cleveland, OH",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -810,9 +883,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Detroit, MI"
+      "Location": "Detroit, MI",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -821,9 +895,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "St. Louis, MO"
+      "Location": "St. Louis, MO",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -832,9 +907,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Cincinnati, OH"
+      "Location": "Cincinnati, OH",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -843,9 +919,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Pittsburgh, PA"
+      "Location": "Pittsburgh, PA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -854,9 +931,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Philadelphia, PA"
+      "Location": "Philadelphia, PA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -865,9 +943,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Newark, NJ"
+      "Location": "Newark, NJ",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -876,9 +955,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "New Haven, CT"
+      "Location": "New Haven, CT",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -887,9 +967,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Brownsville, PA"
+      "Location": "Brownsville, PA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -898,9 +979,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Pittsburgh, PA"
+      "Location": "Pittsburgh, PA",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -909,9 +991,10 @@
       "Event": "First US tour",
       "Play": "",
       "Author": "",
-      "Location": "Youngstown, OH"
+      "Location": "Youngstown, OH",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -920,9 +1003,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Cleveland, OH"
+      "Location": "Cleveland, OH",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -931,9 +1015,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Chicago, IL"
+      "Location": "Chicago, IL",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -942,9 +1027,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Detroit, MI"
+      "Location": "Detroit, MI",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -953,9 +1039,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Toronto, ON"
+      "Location": "Toronto, ON",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -964,9 +1051,10 @@
       "Event": "First US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Montreal, QC"
+      "Location": "Montreal, QC",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
@@ -975,9 +1063,10 @@
       "Event": "Returned to Bucharest",
       "Play": "",
       "Author": "",
-      "Location": "Garden Zhitnitsa, Bucharest, Romania"
+      "Location": "Garden Zhitnitsa, Bucharest, Romania",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -986,9 +1075,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Bukovina, Besarabia, Transylvania"
+      "Location": "Bukovina, Besarabia, Transylvania",
       "Notes": "Follow previous tour to map"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
@@ -997,9 +1087,10 @@
       "Event": "Return to Bucharest; Command performance for the King",
       "Play": "Zinger fun zayn troyer",
       "Author": "Osip Dimov",
-      "Location": "Tsentral Theater, Bucharest, Romania"
+      "Location": "Tsentral Theater, Bucharest, Romania",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-87.629798, 41.878114]},
     "properties": {
@@ -1008,9 +1099,10 @@
       "Event": "Second US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Chicago"
+      "Location": "Chicago",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-118.243506, 34.052281]},
     "properties": {
@@ -1019,9 +1111,10 @@
       "Event": "Second US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Los Angeles"
+      "Location": "Los Angeles",
       "Notes": "6 months"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1030,9 +1123,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "Zinger fun zayn troyer",
       "Author": "Osip Dimov",
-      "Location": "Polish Provinces (precise locations unknown)"
+      "Location": "Polish Provinces (precise locations unknown)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
@@ -1041,9 +1135,10 @@
       "Event": "Return to Bucharest",
       "Play": "",
       "Author": "",
-      "Location": "Bucharest"
+      "Location": "Bucharest",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1052,9 +1147,10 @@
       "Event": "Tour of the Romanian provinces",
       "Play": "",
       "Author": "",
-      "Location": "Romanian provinces (precise locations unknown)"
+      "Location": "Romanian provinces (precise locations unknown)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-81.695424, 41.499492]},
     "properties": {
@@ -1063,9 +1159,10 @@
       "Event": "Second US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Cleveland"
+      "Location": "Cleveland",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-83.045754, 42.331427]},
     "properties": {
@@ -1074,9 +1171,10 @@
       "Event": "Second US Tour",
       "Play": "",
       "Author": "",
-      "Location": "Detroit"
+      "Location": "Detroit",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.599899, 46.777232]},
     "properties": {
@@ -1085,9 +1183,10 @@
       "Event": "Toured Transylvania",
       "Play": "",
       "Author": "",
-      "Location": "Transylvania"
+      "Location": "Transylvania",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
@@ -1096,9 +1195,10 @@
       "Event": "Buloff and Kadison leave for New York",
       "Play": "",
       "Author": "",
-      "Location": "New York"
+      "Location": "New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
@@ -1107,9 +1207,10 @@
       "Event": "Troupe returns to Bucharest",
       "Play": "",
       "Author": "",
-      "Location": "Bucharest"
+      "Location": "Bucharest",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
@@ -1118,9 +1219,10 @@
       "Event": "Performed in Czernowitz",
       "Play": "",
       "Author": "",
-      "Location": "Czernowitz"
+      "Location": "Czernowitz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1129,9 +1231,10 @@
       "Event": "Transylvania - Lares dies en route",
       "Play": "",
       "Author": "",
-      "Location": "Arad, Transylvania"
+      "Location": "Arad, Transylvania",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
@@ -1140,9 +1243,10 @@
       "Event": "Return to Poland",
       "Play": "",
       "Author": "",
-      "Location": "Galicia"
+      "Location": "Galicia",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
@@ -1151,9 +1255,10 @@
       "Event": "Another season in New York",
       "Play": "",
       "Author": "",
-      "Location": "Liptsin Theater, New York"
+      "Location": "Liptsin Theater, New York",
       "Notes": "Azro resigned at the end of this season, and began to travel independently with Alomis"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
@@ -1162,9 +1267,10 @@
       "Event": "Mazos VT splits. Several actors leave for America",
       "Play": "",
       "Author": "",
-      "Location": "New York"
+      "Location": "New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.016666, 49.85]},
     "properties": {
@@ -1173,9 +1279,10 @@
       "Event": "Perform in Lemberg and in other Galizianer shtetlekh",
       "Play": "",
       "Author": "",
-      "Location": "Ukranian Theater Hall, Lemberg"
+      "Location": "Ukranian Theater Hall, Lemberg",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
@@ -1184,9 +1291,10 @@
       "Event": "Perform in Krakow (and in Lemburg?)",
       "Play": "",
       "Author": "",
-      "Location": "Krakow"
+      "Location": "Krakow",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -1195,9 +1303,10 @@
       "Event": "Return to Warsaw",
       "Play": "",
       "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -1206,9 +1315,10 @@
       "Event": "Vaykherts production of Kidesh hashem",
       "Play": "Kidesh hashem",
       "Author": "Sholem Ash",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1217,9 +1327,10 @@
       "Event": "New Vilna Troupe opened in the Bronx",
       "Play": "Gerangl",
       "Author": "B. Epelboym",
-      "Location": "Bronx, New York"
+      "Location": "Bronx, New York",
       "Notes": "directed by Jacob Mestel and Jacob Ben-Ami"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1228,9 +1339,10 @@
       "Event": "First season in the Bronx",
       "Play": "",
       "Author": "",
-      "Location": "Bronx, New York"
+      "Location": "Bronx, New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -1239,9 +1351,10 @@
       "Event": "Hermans production of Bay nakht",
       "Play": "Bay nakht afn altn mark",
       "Author": "Y.L. Peretz",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1250,9 +1363,10 @@
       "Event": "Brief tour of Polish cities",
       "Play": "",
       "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)"
+      "Location": "Polish Provinces (precise locations unknown)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -1261,9 +1375,10 @@
       "Event": "Polish tour",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": "First performance in Vilna since the troupes founding"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -1272,9 +1387,10 @@
       "Event": "Returned to Warsaw",
       "Play": "",
       "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw"
+      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
@@ -1283,9 +1399,10 @@
       "Event": "Former AA members founded a Vilna Troupe in Belgium",
       "Play": "",
       "Author": "",
-      "Location": "Antwerp, Belgium"
+      "Location": "Antwerp, Belgium",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1294,9 +1411,10 @@
       "Event": "First American tour",
       "Play": "",
       "Author": "",
-      "Location": "Locations unknown"
+      "Location": "Locations unknown",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
@@ -1305,9 +1423,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Krakow"
+      "Location": "Krakow",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -1316,9 +1435,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Lodz"
+      "Location": "Lodz",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.147133, 51.402724]},
     "properties": {
@@ -1327,9 +1447,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Radom"
+      "Location": "Radom",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.568438, 51.246455]},
     "properties": {
@@ -1338,9 +1459,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Lublin"
+      "Location": "Lublin",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
@@ -1349,9 +1471,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Galicia (Historic)"
+      "Location": "Galicia (Historic)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
@@ -1360,9 +1483,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "Yidnshtot",
       "Author": "Arn. Zeitlin",
-      "Location": "Bialystok"
+      "Location": "Bialystok",
       "Notes": "Yidnshtot premiered on 11/10/1929"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1371,9 +1495,10 @@
       "Event": "Second season opened in the Bronx American Theater",
       "Play": "",
       "Author": "",
-      "Location": "Bronx America Theater on 149th Street, New York"
+      "Location": "Bronx America Theater on 149th Street, New York",
       "Notes": "Buloff and Kadison rejoin the troupe"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1382,9 +1507,10 @@
       "Event": "Periferiye/Mord",
       "Play": "Periferiye (perf. As Mord)",
       "Author": "Franzizek Langer",
-      "Location": "Bronx America Theater on 149th Street, New York"
+      "Location": "Bronx America Theater on 149th Street, New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
@@ -1393,9 +1519,10 @@
       "Event": "Return to Warsaw",
       "Play": "",
       "Author": "",
-      "Location": "Warsaw"
+      "Location": "Warsaw",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1404,9 +1531,10 @@
       "Event": "Ger tsedek (Adaptation of Dukus)",
       "Play": "Ger tsedek",
       "Author": "Alter Kacyzne",
-      "Location": "Bronx America Theater on 149th Street, New York"
+      "Location": "Bronx America Theater on 149th Street, New York",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1415,9 +1543,10 @@
       "Event": "Alex Stein branch in Vienna",
       "Play": "Der Dybbuk",
       "Author": "",
-      "Location": "Wien Theater, Vienna"
+      "Location": "Wien Theater, Vienna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
@@ -1426,9 +1555,10 @@
       "Event": "Der regnboygn (folksong review) - last production",
       "Play": "Der regnboygn",
       "Author": "adap. J. Buloff",
-      "Location": "Bronx America Theater on 149th Street, New York"
+      "Location": "Bronx America Theater on 149th Street, New York",
       "Notes": "Troupe collapsed after this production"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
@@ -1437,9 +1567,10 @@
       "Event": "MVT tours Polish provinces",
       "Play": "Hershele Ostropolier",
       "Author": "M. Lipshits",
-      "Location": "Krakow"
+      "Location": "Krakow",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -1448,9 +1579,10 @@
       "Event": "MVT tours Polish provinces",
       "Play": "Der goylem",
       "Author": "Leivick",
-      "Location": "Lodz"
+      "Location": "Lodz",
       "Notes": "Toured other places as well"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1459,9 +1591,10 @@
       "Event": "Stein Troupe to Germany",
       "Play": "",
       "Author": "",
-      "Location": "Berlin"
+      "Location": "Berlin",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.059032, 53.17812]},
     "properties": {
@@ -1470,9 +1603,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Lomzshe (Łomża), Poland"
+      "Location": "Lomzshe (Łomża), Poland",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.016667, 53.133333]},
     "properties": {
@@ -1481,9 +1615,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Baranovitch (Baranovichi, Belarus)"
+      "Location": "Baranovitch (Baranovichi, Belarus)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -1492,9 +1627,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
@@ -1503,9 +1639,10 @@
       "Event": "Tour of the Polish provinces",
       "Play": "",
       "Author": "",
-      "Location": "Grodno (Belarus)"
+      "Location": "Grodno (Belarus)",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [, ]},
     "properties": {
@@ -1514,9 +1651,10 @@
       "Event": "European Tour",
       "Play": "Der dibuk",
       "Author": "",
-      "Location": "Prague State Kamer Theater"
+      "Location": "Prague State Kamer Theater",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [2.350987, 48.856667]},
     "properties": {
@@ -1525,9 +1663,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Paris, France"
+      "Location": "Paris, France",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
@@ -1536,9 +1675,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Antwerp, Belgium"
+      "Location": "Antwerp, Belgium",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [5.570777, 50.645999]},
     "properties": {
@@ -1547,9 +1687,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "Liège, Brussels"
+      "Location": "Liège, Brussels",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-0.134781, 51.51035]},
     "properties": {
@@ -1558,9 +1699,10 @@
       "Event": "First tour of Western Europe",
       "Play": "",
       "Author": "",
-      "Location": "London, England"
+      "Location": "London, England",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -1569,9 +1711,10 @@
       "Event": "Return to Poland",
       "Play": "",
       "Author": "",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": "Mazo plus a small faction of VT members"
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
@@ -1580,9 +1723,10 @@
       "Event": "Travel to Vilna",
       "Play": "Blumen-veg",
       "Author": "Kataiev",
-      "Location": "Vilna"
+      "Location": "Vilna",
       "Notes": ""
-    },
+    }
+  },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
@@ -1591,6 +1735,7 @@
       "Event": "Final Performance in Warsaw",
       "Play": "Gots ganovim",
       "Author": "Yoysef Tunkl",
-      "Location": "Warsaw"
+      "Location": "Warsaw",
       "Notes": ""
-    }]}
+    }
+  }]}
