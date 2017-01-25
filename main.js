@@ -36,7 +36,7 @@ var svg = d3.select("body").append("svg")
 
 queue()
     .defer(d3.json, "https://d3js.org/world-110m.v1.json")
-   .defer(d3.json, "places.json")
+    .defer(d3.json, "http://www.nicktaft.com/vilna/places.json")
     .await(ready);
 
 function ready(error, world, places) {
@@ -69,23 +69,23 @@ function ready(error, world, places) {
         .attr("offset","100%").attr("stop-color", "#505962")
         .attr("stop-opacity","0.3")
 
-  var drop_shadow = svg.append("defs").append("radialGradient")
-        .attr("id", "drop_shadow")
-        .attr("cx", "50%")
-        .attr("cy", "50%");
-      drop_shadow.append("stop")
-        .attr("offset","20%").attr("stop-color", "#000")
-        .attr("stop-opacity",".5")
-      drop_shadow.append("stop")
-        .attr("offset","100%").attr("stop-color", "#000")
-        .attr("stop-opacity","0")
+  // var drop_shadow = svg.append("defs").append("radialGradient")
+  //       .attr("id", "drop_shadow")
+  //       .attr("cx", "50%")
+  //       .attr("cy", "50%");
+  //     drop_shadow.append("stop")
+  //       .attr("offset","20%").attr("stop-color", "#000")
+  //       .attr("stop-opacity",".5")
+  //     drop_shadow.append("stop")
+  //       .attr("offset","100%").attr("stop-color", "#000")
+  //       .attr("stop-opacity","0")
 
-  svg.append("ellipse")
-    .attr("cx", 440).attr("cy", 450)
-    .attr("rx", proj.scale()*.90)
-    .attr("ry", proj.scale()*.25)
-    .attr("class", "noclicks")
-    .style("fill", "url(#drop_shadow)");
+  // svg.append("ellipse")
+  //   .attr("cx", 440).attr("cy", 450)
+  //   .attr("rx", proj.scale()*.90)
+  //   .attr("ry", proj.scale()*.25)
+  //   .attr("class", "noclicks")
+  //   .style("fill", "url(#drop_shadow)");
 
   svg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
@@ -94,16 +94,9 @@ function ready(error, world, places) {
     .style("fill", "url(#ocean_fill)");
 
   svg.append("path")
-    .datum(topojson.object(world, world.objects.land))
+    .datum(topojson.feature(world, world.objects.land))
     .attr("class", "land noclicks")
     .attr("d", path);
-
-  // // from biolstock's code
-  // svg.append("path")
-  //   .datum(topojson.feature(world, world.objects.land))
-  //   .attr("class", "land")
-  //   .attr("d", path);
-  // // end of code block
 
   svg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
@@ -153,6 +146,7 @@ function ready(error, world, places) {
     .attr("class","flyer")
     .attr("d", function(d) { return swoosh(flying_arc(d)) })
 
+
   refresh();
 }
 
@@ -183,6 +177,7 @@ function refresh() {
     .attr("opacity", function(d) {
       return fade_at_edge(d)
     })
+
 }
 
 function fade_at_edge(d) {
@@ -212,20 +207,6 @@ function location_along_arc(start, end, loc) {
   var interpolator = d3.geo.interpolate(start,end);
   return interpolator(loc)
 }
-///
-var λ = d3.scale.linear()
-    .domain([0, width])
-    .range([-180, 180]);
-
-var φ = d3.scale.linear()
-    .domain([0, height])
-    .range([90, -90]);
-
-svg.on("mousemove", function() {
-  var p = d3.mouse(this);
-  proj.rotate([λ(p[0]), φ(p[1])]);
-  svg.selectAll("path").attr("d", path);
-});
 
 // modified from http://bl.ocks.org/1392560
 var m0, o0;
@@ -252,47 +233,3 @@ function mouseup() {
     m0 = null;
   }
 }
-
-// code borrowed from http://bl.ocks.org/mbostock/3795040
-// utilizes topoJSON, https://github.com/topojson/world-atlas
-// geographical data from http://www.naturalearthdata.com/
-// updated to v2.2 currently
-
-
-// var width = 960,
-//     height = 500;
-
-// var projection = d3.geo.orthographic()
-//     .scale(250)
-//     .translate([width / 2, height / 2])
-//     .clipAngle(90);
-
-// var path = d3.geo.path()
-//     .projection(projection);
-
-// var λ = d3.scale.linear()
-//     .domain([0, width])
-//     .range([-180, 180]);
-
-// var φ = d3.scale.linear()
-//     .domain([0, height])
-//     .range([90, -90]);
-
-// var svg = d3.select("body").append("svg")
-//     .attr("width", width)
-//     .attr("height", height);
-
-// svg.on("mousemove", function() {
-//   var p = d3.mouse(this);
-//   projection.rotate([λ(p[0]), φ(p[1])]);
-//   svg.selectAll("path").attr("d", path);
-// });
-
-// d3.json("https://d3js.org/world-110m.v1.json", function(error, world) {
-//   if (error) throw error;
-
-//   svg.append("path")
-//       .datum(topojson.feature(world, world.objects.land))
-//       .attr("class", "land")
-//       .attr("d", path);
-// });

@@ -28,7 +28,7 @@
   stroke-width: 3;
 }
 .flyers {
-  stroke-width:1;
+  stroke-width:2;
   opacity: .6;
   stroke: darkred;
 }
@@ -38,4 +38,6 @@
 }
   .arc { }
   .flyer { }
-  .flyer:hover { }
+  .flyer:hover {
+    stroke-width:4;
+  }
