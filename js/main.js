@@ -36,7 +36,7 @@ var svg = d3.select("body").append("svg")
 
 queue()
     .defer(d3.json, "https://d3js.org/world-110m.v1.json")
-    .defer(d3.json, "http://www.nicktaft.com/vilna/vt_raw.json")
+    .defer(d3.json, "http://www.nicktaft.com/vilna/vt-geo-v1.json")
     .await(ready);
 
 function ready(error, world, places) {
@@ -117,16 +117,22 @@ function ready(error, world, places) {
       .attr("d", path);
 
   // spawn links between cities as source/target coord pairs
-  places.features.forEach(function(a) {
-    places.features.forEach(function(b) {
-      if (a !== b) {
-        links.push({
-          source: a.geometry.coordinates,
-          target: b.geometry.coordinates
-        });
-      }
+  for (let i = 1; i < places.features.length; i++) {
+    links.push({
+      source: places.features[i-1].geometry.coordinates,
+      target: places.features[i].geometry.coordinates
     });
-  });
+  }
+  // places.features.forEach(function(a) {
+  //   places.features.forEach(function(b) {
+  //     if (a !== b) {
+  //       links.push({
+  //         source: a.geometry.coordinates,
+  //         target: b.geometry.coordinates
+  //       });
+  //     }
+  //   });
+  // });
 
   // build geoJSON features from links array
   links.forEach(function(e,i,a) {
