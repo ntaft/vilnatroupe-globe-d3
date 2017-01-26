@@ -36,7 +36,7 @@ var svg = d3.select("body").append("svg")
 
 queue()
     .defer(d3.json, "https://d3js.org/world-110m.v1.json")
-    .defer(d3.json, "http://www.nicktaft.com/vilna/places.json")
+    .defer(d3.json, "http://www.nicktaft.com/vilna/vt_raw.json")
     .await(ready);
 
 function ready(error, world, places) {
@@ -146,7 +146,6 @@ function ready(error, world, places) {
     .attr("class","flyer")
     .attr("d", function(d) { return swoosh(flying_arc(d)) })
 
-
   refresh();
 }
 
@@ -154,7 +153,8 @@ function flying_arc(pts) {
   var source = pts.source,
       target = pts.target;
 
-  var mid = location_along_arc(source, target, .5);
+// bends the arc trajectory in relation to the starting point
+  var mid = location_along_arc(source, target, 0.7);
   var result = [ proj(source),
                  sky(mid),
                  proj(target) ]
