@@ -14,7 +14,7 @@ Current Goals:
 
 Future Goals:
 - create animation of group travel over time, or hop-scotching with one troupe around the globe.
-- display extensive metadata, such as plays, performance venues, etc. 
+- display extensive metadata, such as plays, performance venues, statistics etc. 
 
 Globe design and arcs adapted from code by Derek Watkins http://bl.ocks.org/dwtkns/4973620
 

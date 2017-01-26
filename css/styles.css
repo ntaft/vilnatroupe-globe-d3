@@ -28,7 +28,7 @@
   stroke-width: 3;
 }
 .flyers {
-  stroke-width:2;
+  stroke-width:1;
   opacity: .6;
   stroke: darkred;
 }
@@ -40,4 +40,5 @@
   .flyer { }
   .flyer:hover {
     stroke-width:4;
+    opacity: 1;
   }

@@ -1,6 +1,5 @@
 // // code borrowed from http://bl.ocks.org/dwtkns/4973620
 
-
 d3.select(window)
     .on("mousemove", mousemove)
     .on("mouseup", mouseup);
@@ -16,7 +15,7 @@ var proj = d3.geo.orthographic()
 var sky = d3.geo.orthographic()
     .translate([width / 2, height / 2])
     .clipAngle(90)
-    .scale(300);
+    .scale(280);
 
 var path = d3.geo.path().projection(proj).pointRadius(2);
 
@@ -24,7 +23,7 @@ var swoosh = d3.svg.line()
       .x(function(d) { return d[0] })
       .y(function(d) { return d[1] })
       .interpolate("cardinal")
-      .tension(.0);
+      .tension(0);
 
 var links = [],
     arcLines = [];
@@ -36,7 +35,7 @@ var svg = d3.select("body").append("svg")
 
 queue()
     .defer(d3.json, "https://d3js.org/world-110m.v1.json")
-    .defer(d3.json, "http://www.nicktaft.com/vilna/vt-geo-v1.json")
+    .defer(d3.json, "http://www.nicktaft.com/vilna/vt-geo-v2.json")
     .await(ready);
 
 function ready(error, world, places) {
@@ -44,18 +43,18 @@ function ready(error, world, places) {
         .attr("id", "ocean_fill")
         .attr("cx", "75%")
         .attr("cy", "25%");
-      ocean_fill.append("stop").attr("offset", "5%").attr("stop-color", "#fff");
-      ocean_fill.append("stop").attr("offset", "100%").attr("stop-color", "#ababab");
+      ocean_fill.append("stop").attr("offset", "5%").attr("stop-color", "rgb(200, 200, 240)");
+      ocean_fill.append("stop").attr("offset", "100%").attr("stop-color", "rgb(150, 150, 170)");
 
   var globe_highlight = svg.append("defs").append("radialGradient")
         .attr("id", "globe_highlight")
         .attr("cx", "75%")
         .attr("cy", "25%");
       globe_highlight.append("stop")
-        .attr("offset", "5%").attr("stop-color", "#ffd")
+        .attr("offset", "5%").attr("stop-color", "rgb(200, 240, 200)")
         .attr("stop-opacity","0.6");
       globe_highlight.append("stop")
-        .attr("offset", "100%").attr("stop-color", "#ba9")
+        .attr("offset", "100%").attr("stop-color", "rgb(100, 120, 100)")
         .attr("stop-opacity","0.2");
 
   var globe_shading = svg.append("defs").append("radialGradient")
@@ -68,24 +67,6 @@ function ready(error, world, places) {
       globe_shading.append("stop")
         .attr("offset","100%").attr("stop-color", "#505962")
         .attr("stop-opacity","0.3")
-
-  // var drop_shadow = svg.append("defs").append("radialGradient")
-  //       .attr("id", "drop_shadow")
-  //       .attr("cx", "50%")
-  //       .attr("cy", "50%");
-  //     drop_shadow.append("stop")
-  //       .attr("offset","20%").attr("stop-color", "#000")
-  //       .attr("stop-opacity",".5")
-  //     drop_shadow.append("stop")
-  //       .attr("offset","100%").attr("stop-color", "#000")
-  //       .attr("stop-opacity","0")
-
-  // svg.append("ellipse")
-  //   .attr("cx", 440).attr("cy", 450)
-  //   .attr("rx", proj.scale()*.90)
-  //   .attr("ry", proj.scale()*.25)
-  //   .attr("class", "noclicks")
-  //   .style("fill", "url(#drop_shadow)");
 
   svg.append("circle")
     .attr("cx", width / 2).attr("cy", height / 2)
@@ -123,16 +104,6 @@ function ready(error, world, places) {
       target: places.features[i].geometry.coordinates
     });
   }
-  // places.features.forEach(function(a) {
-  //   places.features.forEach(function(b) {
-  //     if (a !== b) {
-  //       links.push({
-  //         source: a.geometry.coordinates,
-  //         target: b.geometry.coordinates
-  //       });
-  //     }
-  //   });
-  // });
 
   // build geoJSON features from links array
   links.forEach(function(e,i,a) {
