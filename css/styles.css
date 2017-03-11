@@ -30,7 +30,7 @@
 .flyers {
   stroke-width:1;
   opacity: .6;
-  stroke: darkred;
+  /*stroke: darkred;*/
 }
 .arc, .flyer {
   stroke-linejoin: round;

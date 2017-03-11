@@ -108,6 +108,7 @@ function ready(error, world, places) {
 
   // spawn links between cities as source/target coord pairs
   for (let i = 1; i < places.features.length - 1; i++) {
+    if (places.features.properties.Troupe)
     links.push({
       source: places.features[i-1].geometry.coordinates,
       target: places.features[i].geometry.coordinates
@@ -124,13 +125,19 @@ function ready(error, world, places) {
     .selectAll('path').data(arcLines)
     .enter().append('path')
       .attr('class','arc')
-      .attr('d',path)
+      .attr('d',path);
 
   svg.append('g').attr('class','flyers')
     .selectAll('path').data(links)
     .enter().append('path')
     .attr('class','flyer')
-    .attr('d', function(d) { return swoosh(flying_arc(d)) })
+    .style('stroke', 'darkred') // default; change stroke color depending on vt troupe data
+    .attr('d', function(d) { return swoosh(flying_arc(d)) });
+
+  // filters the arc color depending on the vt troupe data?
+  svg.selectAll('.flyer')
+    .filter(':nth-child(even)')
+    .style('stroke', 'darkblue');
 
   refresh();
 }
@@ -146,8 +153,6 @@ function flying_arc(pts) {
                  proj(target) ]
   return result;
 }
-
-
 
 function refresh() {
   svg.selectAll('.land').attr('d', path);
@@ -167,9 +172,10 @@ function refresh() {
 }
 
 function fade_at_edge(d) {
-  let centerPos = proj.invert([width/2,height/2]),
-      arc = d3.geo.greatArc(),
-      start, end;
+  const centerPos = proj.invert([width/2,height/2]);
+  const arc = d3.geo.greatArc();
+  let start,
+      end;
   // function is called on 2 different data structures..
   if (d.source) {
     start = d.source,
@@ -180,8 +186,8 @@ function fade_at_edge(d) {
     end = d.geometry.coordinates[1];
   }
 
-  let start_dist = 1.57 - arc.distance({source: start, target: centerPos}),
-      end_dist = 1.57 - arc.distance({source: end, target: centerPos});
+  let start_dist = 1.57 - arc.distance({source: start, target: centerPos});
+  let end_dist = 1.57 - arc.distance({source: end, target: centerPos});
 
   let fade = d3.scale.linear().domain([-.1,0]).range([0,.1])
   let dist = start_dist < end_dist ? start_dist : end_dist;
