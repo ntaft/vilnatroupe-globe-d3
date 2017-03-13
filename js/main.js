@@ -134,10 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
       arcLines.push(feature);
     });
 
-    // function that filters by each troupe, selects color for each one
-    let troupeList = () => {
+    // gets a list of all the troupe data
+    let troupeList = places.features.map(feat => feat.properties.Troupe);
+    // removes duplicates, via http://www.jstips.co/en/javascript/deduplicate-an-array/
+    troupeList = Array.from(new Set(troupeList));
 
-    }
 
     svg.append('g').attr('class','arcs')
       .selectAll('path').data(arcLines)
