@@ -76,14 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
       .attr('cx', '55%')
       .attr('cy', '45%');
     globe_shading.append('stop')
-      .attr('offset','30%').attr('stop-color', '#fff')
+      .attr('offset','30%')
+      .attr('stop-color', '#fff')
       .attr('stop-opacity','0')
     globe_shading.append('stop')
-      .attr('offset','100%').attr('stop-color', '#505962')
+      .attr('offset','100%')
+      .attr('stop-color', '#505962')
       .attr('stop-opacity','0.3')
 
     svg.append('circle')
-      .attr('cx', width / 2).attr('cy', height / 2)
+      .attr('cx', width / 2)
+      .attr('cy', height / 2)
       .attr('r', proj.scale())
       .attr('class', 'noclicks')
       .style('fill', 'url(#ocean_fill)');
@@ -106,10 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
       .style('fill', 'url(#globe_shading)');
 
     svg.append('g').attr('class','points')
-        .selectAll('text').data(places.features)
+      .selectAll('text').data(places.features)
       .enter().append('path')
-        .attr('class', 'point')
-        .attr('d', path);
+      .attr('class', 'point')
+      .attr('d', path);
 
     // spawn links between cities as source/target coord pairs
     for (let i = 1; i < places.features.length - 1; i++) {
@@ -186,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   issue.append("path")
       .attr("class", "line")
-      .style("pointer-events", "none") // Stop line interferring with cursor
+      .style("pointer-events", "none") // Stop line interfering with cursor
       .attr("id", function(d) {
         return "line-" + d.name.replace(" ", "").replace("/", ""); // Give line id of line-(insert issue name, with any spaces replaced with no spaces)
       })
