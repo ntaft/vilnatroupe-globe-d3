@@ -1606,13 +1606,13 @@ vt.forEach((i) => {
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [${i.Longitude}, ${i.Latitude}]},
     "properties": {
-      "Date": "${i.Date}",
-      "Troupe": "${i.Troupe}",
-      "Event": "${i.Event}",
-      "Play": "${i.Play}",
-      "Author": "${i.Author}",
-      "Location": "${i.Location}",
-      "Notes": "${i.Notes}"
+      "date": "${i.Date}",
+      "troupe": "${i.Troupe}",
+      "event": "${i.Event}",
+      "play": "${i.Play}",
+      "author": "${i.Author}",
+      "location": "${i.Location}",
+      "notes": "${i.Notes}"
     }
   }`
   );

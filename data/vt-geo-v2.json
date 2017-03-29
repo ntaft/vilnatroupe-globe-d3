@@ -2,1586 +2,1586 @@
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.268536, 54.692194]},
     "properties": {
-      "Date": "February 18 1916",
-      "Troupe": "O",
-      "Event": "First performance",
-      "Play": "Der landsman",
-      "Author": "Sholem Ash",
-      "Location": "Circus Theater on Lukishkes (Lukiskiu) Street, Vilna",
-      "Notes": ""
+      "date": "February 18 1916",
+      "troupe": "O",
+      "event": "First performance",
+      "play": "Der landsman",
+      "author": "Sholem Ash",
+      "location": "Circus Theater on Lukishkes (Lukiskiu) Street, Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.268536, 54.692194]},
     "properties": {
-      "Date": "February 19 1916",
-      "Troupe": "O",
-      "Event": "Second performance",
-      "Play": "Farvorfen vinkl",
-      "Author": "Peretz Hirschbein",
-      "Location": "Circus Theater on Lukishkes (Lukisciu) Street, Vilna",
-      "Notes": ""
+      "date": "February 19 1916",
+      "troupe": "O",
+      "event": "Second performance",
+      "play": "Farvorfen vinkl",
+      "author": "Peretz Hirschbein",
+      "location": "Circus Theater on Lukishkes (Lukisciu) Street, Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.284005, 54.686169]},
     "properties": {
-      "Date": "Nov. 1916",
-      "Troupe": "O",
-      "Event": "Moved to Vilna State Theater Building",
-      "Play": "Puste kretshme",
-      "Author": "Peretz Hirschbein",
-      "Location": "Vilna State Theater, 4 Gediminas Avenue, Vilna",
-      "Notes": ""
+      "date": "Nov. 1916",
+      "troupe": "O",
+      "event": "Moved to Vilna State Theater Building",
+      "play": "Puste kretshme",
+      "author": "Peretz Hirschbein",
+      "location": "Vilna State Theater, 4 Gediminas Avenue, Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.891974, 54.896612]},
     "properties": {
-      "Date": "May. 1917",
-      "Troupe": "O",
-      "Event": "First tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Kovno",
-      "Notes": ""
+      "date": "May. 1917",
+      "troupe": "O",
+      "event": "First tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Kovno",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.93124, 54.111125]},
     "properties": {
-      "Date": "May. 1917",
-      "Troupe": "O",
-      "Event": "First tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Subalk (Gmine Suwałki, Poland)",
-      "Notes": ""
+      "date": "May. 1917",
+      "troupe": "O",
+      "event": "First tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Subalk (Gmine Suwałki, Poland)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
-      "Date": "May. 1917",
-      "Troupe": "O",
-      "Event": "First tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Grodno (Belarus)",
-      "Notes": ""
+      "date": "May. 1917",
+      "troupe": "O",
+      "event": "First tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Grodno (Belarus)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
-      "Date": "May. 1917",
-      "Troupe": "O",
-      "Event": "First tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Bialystok",
-      "Notes": ""
+      "date": "May. 1917",
+      "troupe": "O",
+      "event": "First tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Bialystok",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "October 1 1917",
-      "Troupe": "O",
-      "Event": "Sukkot - First performance in Warsaw",
-      "Play": "",
-      "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": "Dovid Herman joins the troupe during this tour?"
+      "date": "October 1 1917",
+      "troupe": "O",
+      "event": "Sukkot - First performance in Warsaw",
+      "play": "",
+      "author": "",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": "Dovid Herman joins the troupe during this tour?"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "February 24 1917",
-      "Troupe": "O",
-      "Event": "Yubileum Evening in honor of 1 year anniversary held in Warsaw",
-      "Play": "Revue of their previous productions",
-      "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "February 24 1917",
+      "troupe": "O",
+      "event": "Yubileum Evening in honor of 1 year anniversary held in Warsaw",
+      "play": "Revue of their previous productions",
+      "author": "",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "Mar. 1918 - Apr. 1918",
-      "Troupe": "O",
-      "Event": "2nd tour - Lodz and the provinces",
-      "Play": "Opened with Dorfsyung",
-      "Author": "Leon Kobrin",
-      "Location": "Lodz",
-      "Notes": "6 weeks in Lodz"
+      "date": "Mar. 1918 - Apr. 1918",
+      "troupe": "O",
+      "event": "2nd tour - Lodz and the provinces",
+      "play": "Opened with Dorfsyung",
+      "author": "Leon Kobrin",
+      "location": "Lodz",
+      "notes": "6 weeks in Lodz"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [20, 52]},
     "properties": {
-      "Date": "Winter 1918",
-      "Troupe": "O",
-      "Event": "2nd tour - Lodz and the provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)",
-      "Notes": "Follow previous tour to map"
+      "date": "Winter 1918",
+      "troupe": "O",
+      "event": "2nd tour - Lodz and the provinces",
+      "play": "",
+      "author": "",
+      "location": "Polish Provinces (precise locations unknown)",
+      "notes": "Follow previous tour to map"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.205886, 51.767722]},
     "properties": {
-      "Date": "Winter 1918",
-      "Troupe": "O",
-      "Event": "2nd tour - Lodz and the provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Kazimierz",
-      "Notes": "Added many actors from the Polish dramatic schools"
+      "date": "Winter 1918",
+      "troupe": "O",
+      "event": "2nd tour - Lodz and the provinces",
+      "play": "",
+      "author": "",
+      "location": "Kazimierz",
+      "notes": "Added many actors from the Polish dramatic schools"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.568438, 51.246455]},
     "properties": {
-      "Date": "Spring 1918",
-      "Troupe": "O",
-      "Event": "2nd tour - Lodz and the provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Lublin",
-      "Notes": ""
+      "date": "Spring 1918",
+      "troupe": "O",
+      "event": "2nd tour - Lodz and the provinces",
+      "play": "",
+      "author": "",
+      "location": "Lublin",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "Spring 1918 - Fall 1918",
-      "Troupe": "O",
-      "Event": "2nd tour - Lodz and the provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Lodz",
-      "Notes": ""
+      "date": "Spring 1918 - Fall 1918",
+      "troupe": "O",
+      "event": "2nd tour - Lodz and the provinces",
+      "play": "",
+      "author": "",
+      "location": "Lodz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "Fall 1918",
-      "Troupe": "AA",
-      "Event": "Azro/Alomis leave the O VT and found their own company",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": "Fall 1918",
+      "troupe": "AA",
+      "event": "Azro/Alomis leave the O VT and found their own company",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "Fall 1918",
-      "Troupe": "MVT",
-      "Event": "Mazos troupe returns to Warsaw",
-      "Play": "Niveyle and Tkias Kef",
-      "Author": "Peretz Hirschbein",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": "Mikhl Vaykhert joins the troupe. Some sources (Vayslits - Manger/Perenson) say that Herman joined the Troupe now."
+      "date": "Fall 1918",
+      "troupe": "MVT",
+      "event": "Mazos troupe returns to Warsaw",
+      "play": "Niveyle and Tkias Kef",
+      "author": "Peretz Hirschbein",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": "Mikhl Vaykhert joins the troupe. Some sources (Vayslits - Manger/Perenson) say that Herman joined the troupe now."
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "April. 1919",
-      "Troupe": "AA",
-      "Event": "Polish army takes Vilna, AA troupe dissolves",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": "April. 1919",
+      "troupe": "AA",
+      "event": "Polish army takes Vilna, AA troupe dissolves",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
-      "Date": "Late 1919",
-      "Troupe": "AA",
-      "Event": "Azro and Alomis to Grodne",
-      "Play": "",
-      "Author": "",
-      "Location": "Grodno (Belarus)",
-      "Notes": ""
+      "date": "Late 1919",
+      "troupe": "AA",
+      "event": "Azro and Alomis to Grodne",
+      "play": "",
+      "author": "",
+      "location": "Grodno (Belarus)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
-      "Date": "Late 1919",
-      "Troupe": "AA",
-      "Event": "Azro and Alomis to Bialystok",
-      "Play": "",
-      "Author": "",
-      "Location": "Bialystok",
-      "Notes": ""
+      "date": "Late 1919",
+      "troupe": "AA",
+      "event": "Azro and Alomis to Bialystok",
+      "play": "",
+      "author": "",
+      "location": "Bialystok",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "Dec. 1919",
-      "Troupe": "AA",
-      "Event": "Azro/Alomis found a theater society in Vilna, with former members of the troupe",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": "Dec. 1919",
+      "troupe": "AA",
+      "event": "Azro/Alomis found a theater society in Vilna, with former members of the troupe",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.891974, 54.896612]},
     "properties": {
-      "Date": "Summer 1920",
-      "Troupe": "AA",
-      "Event": "Travel to Kovne after Bolshevik invasion",
-      "Play": "",
-      "Author": "",
-      "Location": "Kovno",
-      "Notes": "Dovid Herman briefly joins AA, then returns to Warsaw after the Bolshevik invasion"
+      "date": "Summer 1920",
+      "troupe": "AA",
+      "event": "Travel to Kovne after Bolshevik invasion",
+      "play": "",
+      "author": "",
+      "location": "Kovno",
+      "notes": "Dovid Herman briefly joins AA, then returns to Warsaw after the Bolshevik invasion"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "December 9 1920",
-      "Troupe": "MVT",
-      "Event": "Premiere of The Dybbuk",
-      "Play": "The Dybbuk",
-      "Author": "Sh. Ansky",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "December 9 1920",
+      "troupe": "MVT",
+      "event": "Premiere of The Dybbuk",
+      "play": "The Dybbuk",
+      "author": "Sh. Ansky",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [13.405603, 52.507047]},
     "properties": {
-      "Date": "June 22 1921",
-      "Troupe": "AA",
-      "Event": "Judisches Kunstler Theater founded in Berlin",
-      "Play": "",
-      "Author": "",
-      "Location": "Berlin, Kreuzberger Kommandantenstraße 58",
-      "Notes": "Source: http://humoristica-judaica.pirckheimer.org/texte_2.htm"
+      "date": "June 22 1921",
+      "troupe": "AA",
+      "event": "Judisches Kunstler Theater founded in Berlin",
+      "play": "",
+      "author": "",
+      "location": "Berlin, Kreuzberger Kommandantenstraße 58",
+      "notes": "Source: http://humoristica-judaica.pirckheimer.org/texte_2.htm"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [13.404062, 52.508081]},
     "properties": {
-      "Date": "Sept. 1921",
-      "Troupe": "AA",
-      "Event": "Began performing as the Vilna Troupe in Berlin",
-      "Play": "",
-      "Author": "",
-      "Location": "Kommandantstrasse, Berlin, Germany",
-      "Notes": ""
+      "date": "Sept. 1921",
+      "troupe": "AA",
+      "event": "Began performing as the Vilna troupe in Berlin",
+      "play": "",
+      "author": "",
+      "location": "Kommandantstrasse, Berlin, Germany",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [12.371364, 51.339673]},
     "properties": {
-      "Date": "Fall 1921 - Winter 1922",
-      "Troupe": "AA",
-      "Event": "Toured Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Leipzig",
-      "Notes": ""
+      "date": "Fall 1921 - Winter 1922",
+      "troupe": "AA",
+      "event": "Toured Germany",
+      "play": "",
+      "author": "",
+      "location": "Leipzig",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [9.991981, 53.553447]},
     "properties": {
-      "Date": "Fall 1921 - Winter 1922",
-      "Troupe": "AA",
-      "Event": "Toured Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Hamburg",
-      "Notes": ""
+      "date": "Fall 1921 - Winter 1922",
+      "troupe": "AA",
+      "event": "Toured Germany",
+      "play": "",
+      "author": "",
+      "location": "Hamburg",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [6.959912, 50.940664]},
     "properties": {
-      "Date": "Fall 1921 - Winter 1922",
-      "Troupe": "AA",
-      "Event": "Toured Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Cologne",
-      "Notes": ""
+      "date": "Fall 1921 - Winter 1922",
+      "troupe": "AA",
+      "event": "Toured Germany",
+      "play": "",
+      "author": "",
+      "location": "Cologne",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [8.680506, 50.111512]},
     "properties": {
-      "Date": "Fall 1921 - Winter 1922",
-      "Troupe": "AA",
-      "Event": "Toured Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Frankfurt",
-      "Notes": ""
+      "date": "Fall 1921 - Winter 1922",
+      "troupe": "AA",
+      "event": "Toured Germany",
+      "play": "",
+      "author": "",
+      "location": "Frankfurt",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [12.924693, 50.832503]},
     "properties": {
-      "Date": "Fall 1921 - Winter 1922",
-      "Troupe": "AA",
-      "Event": "Toured Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Chemnitz",
-      "Notes": ""
+      "date": "Fall 1921 - Winter 1922",
+      "troupe": "AA",
+      "event": "Toured Germany",
+      "play": "",
+      "author": "",
+      "location": "Chemnitz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [13.383333, 52.516667]},
     "properties": {
-      "Date": "",
-      "Troupe": "AA",
-      "Event": "Back to Berlin",
-      "Play": "",
-      "Author": "",
-      "Location": "",
-      "Notes": ""
+      "date": "",
+      "troupe": "AA",
+      "event": "Back to Berlin",
+      "play": "",
+      "author": "",
+      "location": "",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.316667, 52.083333]},
     "properties": {
-      "Date": ".June 1922",
-      "Troupe": "AA",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "The Hague",
-      "Notes": ""
+      "date": ".June 1922",
+      "troupe": "AA",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "The Hague",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.892222, 52.373056]},
     "properties": {
-      "Date": "July 11 1922 - Summer 1922",
-      "Troupe": "AA",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Amsterdam, Holland",
-      "Notes": ""
+      "date": "July 11 1922 - Summer 1922",
+      "troupe": "AA",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Amsterdam, Holland",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
-      "Date": "Summer 1922",
-      "Troupe": "AA",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Antwerp, Belgium",
-      "Notes": "1922 in Belgium"
+      "date": "Summer 1922",
+      "troupe": "AA",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Antwerp, Belgium",
+      "notes": "1922 in Belgium"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [2.350987, 48.856667]},
     "properties": {
-      "Date": "Summer 1922",
-      "Troupe": "AA",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Paris, France",
-      "Notes": ""
+      "date": "Summer 1922",
+      "troupe": "AA",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Paris, France",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [0.134781, 51.51035]},
     "properties": {
-      "Date": "Summer 1922 - Winter 1923",
-      "Troupe": "AA",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Pavilion Theater in London",
-      "Notes": ""
+      "date": "Summer 1922 - Winter 1923",
+      "troupe": "AA",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Pavilion Theater in London",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "1922",
-      "Troupe": "MVT",
-      "Event": "Lodz tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Lodz",
-      "Notes": ""
+      "date": "1922",
+      "troupe": "MVT",
+      "event": "Lodz tour",
+      "play": "",
+      "author": "",
+      "location": "Lodz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.130906, 51.850213]},
     "properties": {
-      "Date": "1922",
-      "Troupe": "MVT",
-      "Event": "Provinces tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)",
-      "Notes": "**imprecise marker randomly placed in Poland"
+      "date": "1922",
+      "troupe": "MVT",
+      "event": "Provinces tour",
+      "play": "",
+      "author": "",
+      "location": "Polish Provinces (precise locations unknown)",
+      "notes": "**imprecise marker randomly placed in Poland"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.014036, 52.234393]},
     "properties": {
-      "Date": "1922",
-      "Troupe": "MVT",
-      "Event": "Return to Warsaw, Kaminski Theater",
-      "Play": "",
-      "Author": "",
-      "Location": "Kaminski Theater, Warsaw",
-      "Notes": ""
+      "date": "1922",
+      "troupe": "MVT",
+      "event": "Return to Warsaw, Kaminski Theater",
+      "play": "",
+      "author": "",
+      "location": "Kaminski Theater, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.15, 53.116667]},
     "properties": {
-      "Date": " March 1922",
-      "Troupe": "MVT",
-      "Event": "Tour of Lithuanian cities",
-      "Play": "",
-      "Author": "",
-      "Location": "Bialystok",
-      "Notes": "**NT split up into 4 data points"
+      "date": " March 1922",
+      "troupe": "MVT",
+      "event": "Tour of Lithuanian cities",
+      "play": "",
+      "author": "",
+      "location": "Bialystok",
+      "notes": "**NT split up into 4 data points"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
-      "Date": " March 1922",
-      "Troupe": "MVT",
-      "Event": "Tour of Lithuanian cities",
-      "Play": "",
-      "Author": "",
-      "Location": "Grodno",
-      "Notes": ""
+      "date": " March 1922",
+      "troupe": "MVT",
+      "event": "Tour of Lithuanian cities",
+      "play": "",
+      "author": "",
+      "location": "Grodno",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.3, 53.883333]},
     "properties": {
-      "Date": " March 1922",
-      "Troupe": "MVT",
-      "Event": "Tour of Lithuanian cities",
-      "Play": "",
-      "Author": "",
-      "Location": "Lide",
-      "Notes": "** assuming this is Lida"
+      "date": " March 1922",
+      "troupe": "MVT",
+      "event": "Tour of Lithuanian cities",
+      "play": "",
+      "author": "",
+      "location": "Lide",
+      "notes": "** assuming this is Lida"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.283333, 54.683333]},
     "properties": {
-      "Date": " March 1922",
-      "Troupe": "MVT",
-      "Event": "Tour of Lithuanian cities",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": " March 1922",
+      "troupe": "MVT",
+      "event": "Tour of Lithuanian cities",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.016666, 49.85]},
     "properties": {
-      "Date": "End of 1922",
-      "Troupe": "MVT",
-      "Event": "Lemberg",
-      "Play": "",
-      "Author": "",
-      "Location": "Lemberg (now Lviv)",
-      "Notes": ""
+      "date": "End of 1922",
+      "troupe": "MVT",
+      "event": "Lemberg",
+      "play": "",
+      "author": "",
+      "location": "Lemberg (now Lviv)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
-      "Date": "1923",
-      "Troupe": "MVT",
-      "Event": "Tour of Galitsiya (Galicia)",
-      "Play": "",
-      "Author": "",
-      "Location": "Galicia (Historic)",
-      "Notes": "Started in each city with Vayters Shtumer"
+      "date": "1923",
+      "troupe": "MVT",
+      "event": "Tour of Galitsiya (Galicia)",
+      "play": "",
+      "author": "",
+      "location": "Galicia (Historic)",
+      "notes": "Started in each city with Vayters Shtumer"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [16.373819, 48.208174]},
     "properties": {
-      "Date": "1923",
-      "Troupe": "MVT",
-      "Event": "Performed in Vienna for 6 months at the Roland Theater",
-      "Play": "",
-      "Author": "",
-      "Location": "Roland Theater, Vienna",
-      "Notes": ""
+      "date": "1923",
+      "troupe": "MVT",
+      "event": "Performed in Vienna for 6 months at the Roland Theater",
+      "play": "",
+      "author": "",
+      "location": "Roland Theater, Vienna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
-      "Date": " Spring/Summer 1923",
-      "Troupe": "MVT",
-      "Event": "Galitsiya (Galicia) and second splintering of the troupe",
-      "Play": "",
-      "Author": "",
-      "Location": "Galicia (Historic)",
-      "Notes": "Several members left Mazos VT to join the Azro/Alomis VT in Berlin"
+      "date": " Spring/Summer 1923",
+      "troupe": "MVT",
+      "event": "Galitsiya (Galicia) and second splintering of the troupe",
+      "play": "",
+      "author": "",
+      "location": "Galicia (Historic)",
+      "notes": "Several members left Mazos VT to join the Azro/Alomis VT in Berlin"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [10.541691, 51.900118]},
     "properties": {
-      "Date": "Spring/Summer 1923",
-      "Troupe": "AA",
-      "Event": "Troupe reorganized after new members from the M troupe joined",
-      "Play": "",
-      "Author": "",
-      "Location": "Harzburg, Germany",
-      "Notes": ""
+      "date": "Spring/Summer 1923",
+      "troupe": "AA",
+      "event": "troupe reorganized after new members from the M troupe joined",
+      "play": "",
+      "author": "",
+      "location": "Harzburg, Germany",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
-      "Date": "7/1/23 - 9/9/23",
-      "Troupe": "MVT",
-      "Event": "Performed in Bucharest, Romania",
-      "Play": "",
-      "Author": "",
-      "Location": "Garden Zhitnitsa (Jigniţa), Bucharest, Romania",
-      "Notes": ""
+      "date": "7/1/23 - 9/9/23",
+      "troupe": "MVT",
+      "event": "Performed in Bucharest, Romania",
+      "play": "",
+      "author": "",
+      "location": "Garden Zhitnitsa (Jigniţa), Bucharest, Romania",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.892222, 52.373056]},
     "properties": {
-      "Date": "Fall 1923",
-      "Troupe": "AA",
-      "Event": "Return to Holland",
-      "Play": "",
-      "Author": "",
-      "Location": "Amsterdam",
-      "Notes": ""
+      "date": "Fall 1923",
+      "troupe": "AA",
+      "event": "Return to Holland",
+      "play": "",
+      "author": "",
+      "location": "Amsterdam",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
-      "Date": "Fall 1923",
-      "Troupe": "AA",
-      "Event": "Return to Belgium",
-      "Play": "",
-      "Author": "",
-      "Location": "Antwerp",
-      "Notes": ""
+      "date": "Fall 1923",
+      "troupe": "AA",
+      "event": "Return to Belgium",
+      "play": "",
+      "author": "",
+      "location": "Antwerp",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
-      "Date": "Jan-24",
-      "Troupe": "AA",
-      "Event": "Traveled to NY at the invitation of Boris Thomashevsky",
-      "Play": "",
-      "Author": "",
-      "Location": "Manhattan, New York",
-      "Notes": ""
+      "date": "Jan-24",
+      "troupe": "AA",
+      "event": "Traveled to NY at the invitation of Boris Thomashevsky",
+      "play": "",
+      "author": "",
+      "location": "Manhattan, New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [28.031044, 45.42572]},
     "properties": {
-      "Date": "9/9/23 - 12/31/23",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Galats (Galati)",
-      "Notes": "Unsure about the order! What would make the most sense?"
+      "date": "9/9/23 - 12/31/23",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Galats (Galati)",
+      "notes": "Unsure about the order! What would make the most sense?"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [27.218566, 47.267965]},
     "properties": {
-      "Date": "9/9/23 - 12/31/23",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Jassy",
-      "Notes": ""
+      "date": "9/9/23 - 12/31/23",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Jassy",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [28.841551, 47.026859]},
     "properties": {
-      "Date": "9/9/23 - 12/31/23",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Keshenev (now Chinisau, Moldova)",
-      "Notes": ""
+      "date": "9/9/23 - 12/31/23",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Keshenev (now Chinisau, Moldova)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.008217, 50.381083]},
     "properties": {
-      "Date": "9/9/23 - 12/31/23",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Belz",
-      "Notes": ""
+      "date": "9/9/23 - 12/31/23",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Belz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
-      "Date": "9/9/23 - 12/31/23",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Czernowitz (now Chernivitsi)",
-      "Notes": ""
+      "date": "9/9/23 - 12/31/23",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Czernowitz (now Chernivitsi)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.985876, 40.757286]},
     "properties": {
-      "Date": "1/29/24",
-      "Troupe": "AA",
-      "Event": "First Performances in New York",
-      "Play": "The Dybbuk",
-      "Author": "Sh. Ansky",
-      "Location": "Nora Bays Theater (Broadway and 44th), New York",
-      "Notes": "Also: Irving Place Theater and Prospect Theater"
+      "date": "1/29/24",
+      "troupe": "AA",
+      "event": "First Performances in New York",
+      "play": "The Dybbuk",
+      "author": "Sh. Ansky",
+      "location": "Nora Bays Theater (Broadway and 44th), New York",
+      "notes": "Also: Irving Place Theater and Prospect Theater"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
-      "Date": "Jan.-Feb. 1924",
-      "Troupe": "MVT",
-      "Event": "Performed in Czernowitz",
-      "Play": "",
-      "Author": "",
-      "Location": "Czernowitz",
-      "Notes": "Until YT was banned in Czernowitz"
+      "date": "Jan.-Feb. 1924",
+      "troupe": "MVT",
+      "event": "Performed in Czernowitz",
+      "play": "",
+      "author": "",
+      "location": "Czernowitz",
+      "notes": "Until YT was banned in Czernowitz"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.196262, 41.186356]},
     "properties": {
-      "Date": "April 28 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "Yankel der shmid, grine felder",
-      "Author": "",
-      "Location": "Bridgeport, CT",
-      "Notes": ""
+      "date": "April 28 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "Yankel der shmid, grine felder",
+      "author": "",
+      "location": "Bridgeport, CT",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-75.546667, 39.745833]},
     "properties": {
-      "Date": "April 29 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Wilmington, DE",
-      "Notes": ""
+      "date": "April 29 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Wilmington, DE",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-76.616667, 39.283333]},
     "properties": {
-      "Date": "April 30 1924",
-      "Troupe": "AA ",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Baltimore, MD",
-      "Notes": ""
+      "date": "April 30 1924",
+      "troupe": "AA ",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Baltimore, MD",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.988396, 40.734635]},
     "properties": {
-      "Date": "May 1 1924",
-      "Troupe": "AA ",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Irving Place Theater, New York, NY",
-      "Notes": ""
+      "date": "May 1 1924",
+      "troupe": "AA ",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Irving Place Theater, New York, NY",
+      "notes": ""
 
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.990351, 40.724927]},
     "properties": {
-      "Date": "May 31 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Kessler Theater, 2nd Ave. & 2nd St. New York, NY",
-      "Notes": "**NT Ref http://collections.mcny.org/Collection/David-Kessler-Theatre.-Roof-Garden-2F3XC5XU154.html"
+      "date": "May 31 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Kessler Theater, 2nd Ave. & 2nd St. New York, NY",
+      "notes": "**NT Ref http://collections.mcny.org/Collection/David-Kessler-Theatre.-Roof-Garden-2F3XC5XU154.html"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.952051, 40.798861]},
     "properties": {
-      "Date": "June 2 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Lenox Theater, Lenox Ave. and W. 111th, New York, NY",
-      "Notes": "** NT ref: http://cinematreasures.org/theaters/13991 see notes at bottom of site"
+      "date": "June 2 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Lenox Theater, Lenox Ave. and W. 111th, New York, NY",
+      "notes": "** NT ref: http://cinematreasures.org/theaters/13991 see notes at bottom of site"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.984607, 40.757740]},
     "properties": {
-      "Date": "3-Jun-24",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Lyceum Theater, Patterson, NJ",
-      "Notes": ""
+      "date": "3-Jun-24",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Lyceum Theater, Patterson, NJ",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.156157, 41.700386]},
     "properties": {
-      "Date": "June 4 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Academy of Music, 114 South Main Street, Fall River, MA",
-      "Notes": "** NT src http://cinematreasures.org/theaters/2980"
+      "date": "June 4 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Academy of Music, 114 South Main Street, Fall River, MA",
+      "notes": "** NT src http://cinematreasures.org/theaters/2980"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.803084, 42.261089]},
     "properties": {
-      "Date": "June 5 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Worcester Theatre, Worcester MA",
-      "Notes": ""
+      "date": "June 5 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Worcester Theatre, Worcester MA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.063611, 42.358056]},
     "properties": {
-      "Date": "June 6-7 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Boston, MA",
-      "Notes": ""
+      "date": "June 6-7 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Boston, MA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.163611, 42.706944]},
     "properties": {
-      "Date": "June 8 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Lawrence, MA",
-      "Notes": ""
+      "date": "June 8 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Lawrence, MA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.063611, 42.358056]},
     "properties": {
-      "Date": "June 8 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Boston, MA",
-      "Notes": ""
+      "date": "June 8 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Boston, MA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-71.422222, 41.823611]},
     "properties": {
-      "Date": "June 9 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Providence, RI",
-      "Notes": ""
+      "date": "June 9 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Providence, RI",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-72.674286, 41.762736]},
     "properties": {
-      "Date": "June 10 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Hartford, CT",
-      "Notes": ""
+      "date": "June 10 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Hartford, CT",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-77.611389, 43.165556]},
     "properties": {
-      "Date": "June 11 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Rochester, NY",
-      "Notes": ""
+      "date": "June 11 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Rochester, NY",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-77.611389, 43.165556]},
     "properties": {
-      "Date": "June 12 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Toronto, ON",
-      "Notes": ""
+      "date": "June 12 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Toronto, ON",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-78.849444, 42.904722]},
     "properties": {
-      "Date": "June 13 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Buffalo, NY",
-      "Notes": ""
+      "date": "June 13 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Buffalo, NY",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-81.669722, 41.482222]},
     "properties": {
-      "Date": "June 14 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Cleveland, OH",
-      "Notes": ""
+      "date": "June 14 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Cleveland, OH",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-83.045833, 42.331389]},
     "properties": {
-      "Date": "June 15 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Detroit, MI",
-      "Notes": ""
+      "date": "June 15 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Detroit, MI",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-90.197778, 38.627222]},
     "properties": {
-      "Date": "June 16 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "St. Louis, MO",
-      "Notes": ""
+      "date": "June 16 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "St. Louis, MO",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-84.516667, 39.1]},
     "properties": {
-      "Date": "June 17 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Cincinnati, OH",
-      "Notes": ""
+      "date": "June 17 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Cincinnati, OH",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-79.976389, 40.439722]},
     "properties": {
-      "Date": "June 18 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Pittsburgh, PA",
-      "Notes": ""
+      "date": "June 18 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Pittsburgh, PA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-79.976389, 40.439722]},
     "properties": {
-      "Date": "June 19-21 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Philadelphia, PA",
-      "Notes": ""
+      "date": "June 19-21 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Philadelphia, PA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-74.172574, 40.72422]},
     "properties": {
-      "Date": "June 22 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Newark, NJ",
-      "Notes": ""
+      "date": "June 22 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Newark, NJ",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-72.923611, 41.31]},
     "properties": {
-      "Date": "June 23 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "New Haven, CT",
-      "Notes": ""
+      "date": "June 23 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "New Haven, CT",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-79.889444, 40.02]},
     "properties": {
-      "Date": "June 24 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Brownsville, PA",
-      "Notes": ""
+      "date": "June 24 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Brownsville, PA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-79.976389, 40.439722]},
     "properties": {
-      "Date": "June 25 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Pittsburgh, PA",
-      "Notes": ""
+      "date": "June 25 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Pittsburgh, PA",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-80.65, 41.1]},
     "properties": {
-      "Date": "June 26 1924",
-      "Troupe": "AA",
-      "Event": "First US tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Youngstown, OH",
-      "Notes": ""
+      "date": "June 26 1924",
+      "troupe": "AA",
+      "event": "First US tour",
+      "play": "",
+      "author": "",
+      "location": "Youngstown, OH",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-81.669722, 41.482222]},
     "properties": {
-      "Date": "June 27 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Cleveland, OH",
-      "Notes": ""
+      "date": "June 27 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Cleveland, OH",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-87.684722, 41.836944]},
     "properties": {
-      "Date": "June 28 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Chicago, IL",
-      "Notes": ""
+      "date": "June 28 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Chicago, IL",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-83.045833, 42.331389]},
     "properties": {
-      "Date": "June 29 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Detroit, MI",
-      "Notes": ""
+      "date": "June 29 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Detroit, MI",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-79.4, 43.7]},
     "properties": {
-      "Date": "July 1 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Toronto, ON",
-      "Notes": ""
+      "date": "July 1 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Toronto, ON",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.566667, 45.5]},
     "properties": {
-      "Date": "July 2-3 1924",
-      "Troupe": "AA",
-      "Event": "First US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Montreal, QC",
-      "Notes": ""
+      "date": "July 2-3 1924",
+      "troupe": "AA",
+      "event": "First US Tour",
+      "play": "",
+      "author": "",
+      "location": "Montreal, QC",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
-      "Date": "June 1924 -9/14/24 ",
-      "Troupe": "MVT",
-      "Event": "Returned to Bucharest",
-      "Play": "",
-      "Author": "",
-      "Location": "Garden Zhitnitsa, Bucharest, Romania",
-      "Notes": ""
+      "date": "June 1924 -9/14/24 ",
+      "troupe": "MVT",
+      "event": "Returned to Bucharest",
+      "play": "",
+      "author": "",
+      "location": "Garden Zhitnitsa, Bucharest, Romania",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [47.843925, 25.918844]},
     "properties": {
-      "Date": "Sept.-Oct. 1924",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Bukovina, Besarabia, Transylvania ** NT put marker on Rădăuți",
-      "Notes": "Follow previous tour to map"
+      "date": "Sept.-Oct. 1924",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Bukovina, Besarabia, Transylvania ** NT put marker on Rădăuți as approx.",
+      "notes": "Follow previous tour to map"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
-      "Date": "Fall 1924 - Spring 1925",
-      "Troupe": "MVT",
-      "Event": "Return to Bucharest; Command performance for the King",
-      "Play": "Zinger fun zayn troyer",
-      "Author": "Osip Dimov",
-      "Location": "Tsentral Theater, Bucharest, Romania",
-      "Notes": ""
+      "date": "Fall 1924 - Spring 1925",
+      "troupe": "MVT",
+      "event": "Return to Bucharest; Command performance for the King",
+      "play": "Zinger fun zayn troyer",
+      "author": "Osip Dimov",
+      "location": "Tsentral Theater, Bucharest, Romania",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-87.629798, 41.878114]},
     "properties": {
-      "Date": "? 1925",
-      "Troupe": "AA",
-      "Event": "Second US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Chicago",
-      "Notes": ""
+      "date": "? 1925",
+      "troupe": "AA",
+      "event": "Second US Tour",
+      "play": "",
+      "author": "",
+      "location": "Chicago",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-118.243506, 34.052281]},
     "properties": {
-      "Date": "1924-1925",
-      "Troupe": "AA",
-      "Event": "Second US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Los Angeles",
-      "Notes": "6 months"
+      "date": "1924-1925",
+      "troupe": "AA",
+      "event": "Second US Tour",
+      "play": "",
+      "author": "",
+      "location": "Los Angeles",
+      "notes": "6 months"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [20, 52]},
     "properties": {
-      "Date": "Summer 1925",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "Zinger fun zayn troyer",
-      "Author": "Osip Dimov",
-      "Location": "Polish Provinces (precise locations unknown)",
-      "Notes": ""
+      "date": "Summer 1925",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "Zinger fun zayn troyer",
+      "author": "Osip Dimov",
+      "location": "Polish Provinces (precise locations unknown)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
-      "Date": "Fall 1925",
-      "Troupe": "MVT",
-      "Event": "Return to Bucharest",
-      "Play": "",
-      "Author": "",
-      "Location": "Bucharest",
-      "Notes": ""
+      "date": "Fall 1925",
+      "troupe": "MVT",
+      "event": "Return to Bucharest",
+      "play": "",
+      "author": "",
+      "location": "Bucharest",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25, 46]},
     "properties": {
-      "Date": "Fall 1925 - Winter 1926",
-      "Troupe": "MVT",
-      "Event": "Tour of the Romanian provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Romanian provinces (precise locations unknown)",
-      "Notes": ""
+      "date": "Fall 1925 - Winter 1926",
+      "troupe": "MVT",
+      "event": "Tour of the Romanian provinces",
+      "play": "",
+      "author": "",
+      "location": "Romanian provinces (precise locations unknown)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-81.695424, 41.499492]},
     "properties": {
-      "Date": "1926",
-      "Troupe": "AA",
-      "Event": "Second US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Cleveland",
-      "Notes": ""
+      "date": "1926",
+      "troupe": "AA",
+      "event": "Second US Tour",
+      "play": "",
+      "author": "",
+      "location": "Cleveland",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-83.045754, 42.331427]},
     "properties": {
-      "Date": "1926",
-      "Troupe": "AA",
-      "Event": "Second US Tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Detroit",
-      "Notes": ""
+      "date": "1926",
+      "troupe": "AA",
+      "event": "Second US Tour",
+      "play": "",
+      "author": "",
+      "location": "Detroit",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.599899, 46.777232]},
     "properties": {
-      "Date": "Winter 1926?",
-      "Troupe": "MVT",
-      "Event": "Toured Transylvania",
-      "Play": "",
-      "Author": "",
-      "Location": "Transylvania",
-      "Notes": ""
+      "date": "Winter 1926?",
+      "troupe": "MVT",
+      "event": "Toured Transylvania",
+      "play": "",
+      "author": "",
+      "location": "Transylvania",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
-      "Date": "Winter 1926",
-      "Troupe": "MVT",
-      "Event": "Buloff and Kadison leave for New York",
-      "Play": "",
-      "Author": "",
-      "Location": "New York",
-      "Notes": ""
+      "date": "Winter 1926",
+      "troupe": "MVT",
+      "event": "Buloff and Kadison leave for New York",
+      "play": "",
+      "author": "",
+      "location": "New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.09925, 44.437578]},
     "properties": {
-      "Date": "Winter 1926",
-      "Troupe": "MVT",
-      "Event": "Troupe returns to Bucharest",
-      "Play": "",
-      "Author": "",
-      "Location": "Bucharest",
-      "Notes": ""
+      "date": "Winter 1926",
+      "troupe": "MVT",
+      "event": "troupe returns to Bucharest",
+      "play": "",
+      "author": "",
+      "location": "Bucharest",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.933333, 48.3]},
     "properties": {
-      "Date": "Winter 1926 - April",
-      "Troupe": "MVT",
-      "Event": "Performed in Czernowitz",
-      "Play": "",
-      "Author": "",
-      "Location": "Czernowitz",
-      "Notes": ""
+      "date": "Winter 1926 - April",
+      "troupe": "MVT",
+      "event": "Performed in Czernowitz",
+      "play": "",
+      "author": "",
+      "location": "Czernowitz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.316667, 46.166667]},
     "properties": {
-      "Date": "Jul-26",
-      "Troupe": "MVT",
-      "Event": "Transylvania - Lares dies en route",
-      "Play": "",
-      "Author": "",
-      "Location": "Arad, Transylvania",
-      "Notes": ""
+      "date": "Jul-26",
+      "troupe": "MVT",
+      "event": "Transylvania - Lares dies en route",
+      "play": "",
+      "author": "",
+      "location": "Arad, Transylvania",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
-      "Date": "April. 1926",
-      "Troupe": "MVT",
-      "Event": "Return to Poland",
-      "Play": "",
-      "Author": "",
-      "Location": "Galicia",
-      "Notes": ""
+      "date": "April. 1926",
+      "troupe": "MVT",
+      "event": "Return to Poland",
+      "play": "",
+      "author": "",
+      "location": "Galicia",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
-      "Date": "9/3/1926 - June 1927",
-      "Troupe": "AmRev",
-      "Event": "Another season in New York",
-      "Play": "",
-      "Author": "",
-      "Location": "Liptsin Theater, New York",
-      "Notes": "Azro resigned at the end of this season, and began to travel independently with Alomis"
+      "date": "9/3/1926 - June 1927",
+      "troupe": "AmRev",
+      "event": "Another season in New York",
+      "play": "",
+      "author": "",
+      "location": "Liptsin Theater, New York",
+      "notes": "Azro resigned at the end of this season, and began to travel independently with Alomis"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.992715, 40.736465]},
     "properties": {
-      "Date": "Middle of 1927",
-      "Troupe": "AmRev",
-      "Event": "Mazos VT splits. Several actors leave for America",
-      "Play": "",
-      "Author": "",
-      "Location": "New York",
-      "Notes": ""
+      "date": "Middle of 1927",
+      "troupe": "AmRev",
+      "event": "Mazos VT splits. Several actors leave for America",
+      "play": "",
+      "author": "",
+      "location": "New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [24.016666, 49.85]},
     "properties": {
-      "Date": "August - Nov. 1927",
-      "Troupe": "MVT",
-      "Event": "Perform in Lemberg and in other Galizianer shtetlekh",
-      "Play": "",
-      "Author": "",
-      "Location": "Ukranian Theater Hall, Lemberg",
-      "Notes": ""
+      "date": "August - Nov. 1927",
+      "troupe": "MVT",
+      "event": "Perform in Lemberg and in other Galizianer shtetlekh",
+      "play": "",
+      "author": "",
+      "location": "Ukranian Theater Hall, Lemberg",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
-      "Date": "Fall 1927 - Winter 1928",
-      "Troupe": "MVT",
-      "Event": "Perform in Krakow (and in Lemburg?)",
-      "Play": "",
-      "Author": "",
-      "Location": "Krakow",
-      "Notes": ""
+      "date": "Fall 1927 - Winter 1928",
+      "troupe": "MVT",
+      "event": "Perform in Krakow (and in Lemburg?)",
+      "play": "",
+      "author": "",
+      "location": "Krakow",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "3/22/28",
-      "Troupe": "MVT",
-      "Event": "Return to Warsaw",
-      "Play": "",
-      "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "3/22/28",
+      "troupe": "MVT",
+      "event": "Return to Warsaw",
+      "play": "",
+      "author": "",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "5/2/28",
-      "Troupe": "MVT",
-      "Event": "Vaykherts production of Kidesh hashem",
-      "Play": "Kidesh hashem",
-      "Author": "Sholem Ash",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "5/2/28",
+      "troupe": "MVT",
+      "event": "Vaykherts production of Kidesh hashem",
+      "play": "Kidesh hashem",
+      "author": "Sholem Ash",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "10/12/28",
-      "Troupe": "Bronx",
-      "Event": "New Vilna Troupe opened in the Bronx",
-      "Play": "Gerangl",
-      "Author": "B. Epelboym",
-      "Location": "Bronx, New York",
-      "Notes": "directed by Jacob Mestel and Jacob Ben-Ami"
+      "date": "10/12/28",
+      "troupe": "Bronx",
+      "event": "New Vilna troupe opened in the Bronx",
+      "play": "Gerangl",
+      "author": "B. Epelboym",
+      "location": "Bronx, New York",
+      "notes": "directed by Jacob Mestel and Jacob Ben-Ami"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "10/12/1928 - June 1929",
-      "Troupe": "Bronx",
-      "Event": "First season in the Bronx",
-      "Play": "",
-      "Author": "",
-      "Location": "Bronx, New York",
-      "Notes": ""
+      "date": "10/12/1928 - June 1929",
+      "troupe": "Bronx",
+      "event": "First season in the Bronx",
+      "play": "",
+      "author": "",
+      "location": "Bronx, New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "Oct. 1928",
-      "Troupe": "MVT",
-      "Event": "Hermans production of Bay nakht",
-      "Play": "Bay nakht afn altn mark",
-      "Author": "Y.L. Peretz",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "Oct. 1928",
+      "troupe": "MVT",
+      "event": "Hermans production of Bay nakht",
+      "play": "Bay nakht afn altn mark",
+      "author": "Y.L. Peretz",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [20, 52]},
     "properties": {
-      "Date": "Nov. 1928",
-      "Troupe": "MVT",
-      "Event": "Brief tour of Polish cities",
-      "Play": "",
-      "Author": "",
-      "Location": "Polish Provinces (precise locations unknown)",
-      "Notes": ""
+      "date": "Nov. 1928",
+      "troupe": "MVT",
+      "event": "Brief tour of Polish cities",
+      "play": "",
+      "author": "",
+      "location": "Polish Provinces (precise locations unknown)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "Nov. - Dec. 1928",
-      "Troupe": "MVT",
-      "Event": "Polish tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": "First performance in Vilna since the troupes founding"
+      "date": "Nov. - Dec. 1928",
+      "troupe": "MVT",
+      "event": "Polish tour",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": "First performance in Vilna since the troupes founding"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "12/18/1928 - 5/9/1929",
-      "Troupe": "MVT",
-      "Event": "Returned to Warsaw",
-      "Play": "",
-      "Author": "",
-      "Location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
-      "Notes": ""
+      "date": "12/18/1928 - 5/9/1929",
+      "troupe": "MVT",
+      "event": "Returned to Warsaw",
+      "play": "",
+      "author": "",
+      "location": "Elysium Theater, Karove (Karowa) Street, Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
-      "Date": "((1929)",
-      "Troupe": "Belgium",
-      "Event": "Former AA members founded a Vilna Troupe in Belgium",
-      "Play": "",
-      "Author": "",
-      "Location": "Antwerp, Belgium",
-      "Notes": ""
+      "date": "((1929)",
+      "troupe": "Belgium",
+      "event": "Former AA members founded a Vilna troupe in Belgium",
+      "play": "",
+      "author": "",
+      "location": "Antwerp, Belgium",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-74.0059, 40.7127]},
     "properties": {
-      "Date": "Summer 1929",
-      "Troupe": "Bronx",
-      "Event": "First American tour",
-      "Play": "",
-      "Author": "",
-      "Location": "Locations unknown",
-      "Notes": ""
+      "date": "Summer 1929",
+      "troupe": "Bronx",
+      "event": "First American tour",
+      "play": "",
+      "author": "",
+      "location": "locations unknown",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Krakow",
-      "Notes": ""
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Krakow",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Lodz",
-      "Notes": ""
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Lodz",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.147133, 51.402724]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Radom",
-      "Notes": ""
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Radom",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.568438, 51.246455]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Lublin",
-      "Notes": ""
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Lublin",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.766666, 49.066668]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Galicia (Historic)",
-      "Notes": ""
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Galicia (Historic)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.16884, 53.132489]},
     "properties": {
-      "Date": "5/9/1929 - 11/10/1929",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "Yidnshtot",
-      "Author": "Arn. Zeitlin",
-      "Location": "Bialystok",
-      "Notes": "Yidnshtot premiered on 11/10/1929"
+      "date": "5/9/1929 - 11/10/1929",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "Yidnshtot",
+      "author": "Arn. Zeitlin",
+      "location": "Bialystok",
+      "notes": "Yidnshtot premiered on 11/10/1929"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "Sept. 1929",
-      "Troupe": "Bronx",
-      "Event": "Second season opened in the Bronx American Theater",
-      "Play": "",
-      "Author": "",
-      "Location": "Bronx America Theater on 149th Street, New York",
-      "Notes": "Buloff and Kadison rejoin the troupe"
+      "date": "Sept. 1929",
+      "troupe": "Bronx",
+      "event": "Second season opened in the Bronx American Theater",
+      "play": "",
+      "author": "",
+      "location": "Bronx America Theater on 149th Street, New York",
+      "notes": "Buloff and Kadison rejoin the troupe"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "Nov. 1 1929",
-      "Troupe": "Bronx",
-      "Event": "Periferiye/Mord",
-      "Play": "Periferiye (perf. As Mord)",
-      "Author": "Franzizek Langer",
-      "Location": "Bronx America Theater on 149th Street, New York",
-      "Notes": ""
+      "date": "Nov. 1 1929",
+      "troupe": "Bronx",
+      "event": "Periferiye/Mord",
+      "play": "Periferiye (perf. As Mord)",
+      "author": "Franzizek Langer",
+      "location": "Bronx America Theater on 149th Street, New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [21.015599, 52.241875]},
     "properties": {
-      "Date": "Nov. 1929",
-      "Troupe": "MVT",
-      "Event": "Return to Warsaw",
-      "Play": "",
-      "Author": "",
-      "Location": "Warsaw",
-      "Notes": ""
+      "date": "Nov. 1929",
+      "troupe": "MVT",
+      "event": "Return to Warsaw",
+      "play": "",
+      "author": "",
+      "location": "Warsaw",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "Dec. 10 1929",
-      "Troupe": "Bronx",
-      "Event": "Ger tsedek (Adaptation of Dukus)",
-      "Play": "Ger tsedek",
-      "Author": "Alter Kacyzne",
-      "Location": "Bronx America Theater on 149th Street, New York",
-      "Notes": ""
+      "date": "Dec. 10 1929",
+      "troupe": "Bronx",
+      "event": "Ger tsedek (Adaptation of Dukus)",
+      "play": "Ger tsedek",
+      "author": "Alter Kacyzne",
+      "location": "Bronx America Theater on 149th Street, New York",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [16.364378, 48.199425]},
     "properties": {
-      "Date": "Feb. 1930",
-      "Troupe": "Stein",
-      "Event": "Alex Stein branch in Vienna",
-      "Play": "Der Dybbuk",
-      "Author": "",
-      "Location": "Wien Theater, Vienna",
-      "Notes": ""
+      "date": "Feb. 1930",
+      "troupe": "Stein",
+      "event": "Alex Stein branch in Vienna",
+      "play": "Der Dybbuk",
+      "author": "",
+      "location": "Wien Theater, Vienna",
+      "notes": ""
     }
   },
 
@@ -1589,192 +1589,192 @@
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-73.904098, 40.812118]},
     "properties": {
-      "Date": "Feb. 28 1930",
-      "Troupe": "Bronx",
-      "Event": "Der regnboygn (folksong review) - last production",
-      "Play": "Der regnboygn",
-      "Author": "adap. J. Buloff",
-      "Location": "Bronx America Theater on 149th Street, New York",
-      "Notes": "Troupe collapsed after this production"
+      "date": "Feb. 28 1930",
+      "troupe": "Bronx",
+      "event": "Der regnboygn (folksong review) - last production",
+      "play": "Der regnboygn",
+      "author": "adap. J. Buloff",
+      "location": "Bronx America Theater on 149th Street, New York",
+      "notes": "troupe collapsed after this production"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.945015, 50.064648]},
     "properties": {
-      "Date": "Apr. 1930",
-      "Troupe": "MVT",
-      "Event": "MVT tours Polish provinces",
-      "Play": "Hershele Ostropolier",
-      "Author": "M. Lipshits",
-      "Location": "Krakow",
-      "Notes": ""
+      "date": "Apr. 1930",
+      "troupe": "MVT",
+      "event": "MVT tours Polish provinces",
+      "play": "Hershele Ostropolier",
+      "author": "M. Lipshits",
+      "location": "Krakow",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "Aug. 1930",
-      "Troupe": "MVT",
-      "Event": "MVT tours Polish provinces",
-      "Play": "Der goylem",
-      "Author": "Leivick",
-      "Location": "Lodz",
-      "Notes": "Toured other places as well"
+      "date": "Aug. 1930",
+      "troupe": "MVT",
+      "event": "MVT tours Polish provinces",
+      "play": "Der goylem",
+      "author": "Leivick",
+      "location": "Lodz",
+      "notes": "Toured other places as well"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [13.383333, 52.516667]},
     "properties": {
-      "Date": "Fall 1931",
-      "Troupe": "Stein",
-      "Event": "Stein Troupe to Germany",
-      "Play": "",
-      "Author": "",
-      "Location": "Berlin",
-      "Notes": ""
+      "date": "Fall 1931",
+      "troupe": "Stein",
+      "event": "Stein troupe to Germany",
+      "play": "",
+      "author": "",
+      "location": "Berlin",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [22.059032, 53.17812]},
     "properties": {
-      "Date": "1931",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Lomzshe (Łomża), Poland",
-      "Notes": ""
+      "date": "1931",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Lomzshe (Łomża), Poland",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [26.016667, 53.133333]},
     "properties": {
-      "Date": "1931",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Baranovitch (Baranovichi, Belarus)",
-      "Notes": ""
+      "date": "1931",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Baranovitch (Baranovichi, Belarus)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": " January 2nd, 1931 - ?",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": " January 2nd, 1931 - ?",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [23.833333, 53.666667]},
     "properties": {
-      "Date": "1931",
-      "Troupe": "MVT",
-      "Event": "Tour of the Polish provinces",
-      "Play": "",
-      "Author": "",
-      "Location": "Grodno (Belarus)",
-      "Notes": ""
+      "date": "1931",
+      "troupe": "MVT",
+      "event": "Tour of the Polish provinces",
+      "play": "",
+      "author": "",
+      "location": "Grodno (Belarus)",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [14.441241, 50.090031]},
     "properties": {
-      "Date": "1933",
-      "Troupe": "Stein",
-      "Event": "European Tour",
-      "Play": "Der dibuk",
-      "Author": "",
-      "Location": "Prague State Kamer Theater ** NT do you mean Karin State Theater?",
-      "Notes": ""
+      "date": "1933",
+      "troupe": "Stein",
+      "event": "European Tour",
+      "play": "Der dibuk",
+      "author": "",
+      "location": "Prague State Kamer Theater ** NT do you mean Karin State Theater?",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [2.350987, 48.856667]},
     "properties": {
-      "Date": "1933",
-      "Troupe": "MVT",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Paris, France",
-      "Notes": ""
+      "date": "1933",
+      "troupe": "MVT",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Paris, France",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [4.39625, 51.21992]},
     "properties": {
-      "Date": "November 1933 - February 1934",
-      "Troupe": "MVT",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Antwerp, Belgium",
-      "Notes": ""
+      "date": "November 1933 - February 1934",
+      "troupe": "MVT",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Antwerp, Belgium",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [5.570777, 50.645999]},
     "properties": {
-      "Date": "Winter 1934",
-      "Troupe": "MVT",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "Liège, Brussels",
-      "Notes": ""
+      "date": "Winter 1934",
+      "troupe": "MVT",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "Liège, Brussels",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [-0.134781, 51.51035]},
     "properties": {
-      "Date": "Spring 1934",
-      "Troupe": "MVT",
-      "Event": "First tour of Western Europe",
-      "Play": "",
-      "Author": "",
-      "Location": "London, England",
-      "Notes": ""
+      "date": "Spring 1934",
+      "troupe": "MVT",
+      "event": "First tour of Western Europe",
+      "play": "",
+      "author": "",
+      "location": "London, England",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "1934",
-      "Troupe": "MVT",
-      "Event": "Return to Poland",
-      "Play": "",
-      "Author": "",
-      "Location": "Vilna",
-      "Notes": "Mazo plus a small faction of VT members"
+      "date": "1934",
+      "troupe": "MVT",
+      "event": "Return to Poland",
+      "play": "",
+      "author": "",
+      "location": "Vilna",
+      "notes": "Mazo plus a small faction of VT members"
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [25.280024, 54.689386]},
     "properties": {
-      "Date": "1934",
-      "Troupe": "MVT",
-      "Event": "Travel to Vilna",
-      "Play": "Blumen-veg",
-      "Author": "Kataiev",
-      "Location": "Vilna",
-      "Notes": ""
+      "date": "1934",
+      "troupe": "MVT",
+      "event": "Travel to Vilna",
+      "play": "Blumen-veg",
+      "author": "Kataiev",
+      "location": "Vilna",
+      "notes": ""
     }
   },
   { "type": "Feature",
     "geometry": {"type": "Point", "coordinates": [19.455983, 51.759248]},
     "properties": {
-      "Date": "Sept. 1935",
-      "Troupe": "MVT",
-      "Event": "Final Performance in Warsaw",
-      "Play": "Gots ganovim",
-      "Author": "Yoysef Tunkl",
-      "Location": "Warsaw",
-      "Notes": ""
+      "date": "Sept. 1935",
+      "troupe": "MVT",
+      "event": "Final Performance in Warsaw",
+      "play": "Gots ganovim",
+      "author": "Yoysef Tunkl",
+      "location": "Warsaw",
+      "notes": ""
     }
   }]}
