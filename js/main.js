@@ -40,8 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
     .defer(d3.json, '/vt_data')
     .await(ready);
 
+  const color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
+
   function ready(error, world, places) {
-    color.domain(d3.keys(data[0]).filter(function(key) { // Set the domain of the color ordinal scale to be filtered by troupe; needs work.
+    let troupeList = Array.from(new Set(places.features.map(feat => feat.properties.troupe)));
+    console.log(troupeList);
+    color.domain(troupeList.filter(function(key) { // Set the domain of the color ordinal scale to be filtered by troupe; needs work.
       return key;
     }));
     let ocean_fill = svg.append('defs')
@@ -116,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // spawn links between cities as source/target coord pairs
     for (let i = 1; i < places.features.length - 1; i++) {
-      if (places.features[i-1].geometry.properties.Troupe === places.features[i].properties.Troupe) {
+      if (places.features[i-1].properties.troupe === places.features[i].properties.troupe) {
         links.push({
           source: places.features[i-1].geometry.coordinates,
           target: places.features[i].geometry.coordinates,
@@ -144,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // gets a list of all the troupe data; removes duplicates
     // http://www.jstips.co/en/javascript/deduplicate-an-array/
-    let troupeList = Array.from(new Set(places.features.map(feat => feat.properties.Troupe));
+
 
     // maps colors to each troupe; ### placeholder colors
     // const colors = ['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan'];
@@ -155,24 +159,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // }
 
     // via http://bl.ocks.org/DStruths/9c042e3a6b66048b5bd4
-    const color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
+    // code not yet stable
+    /*
     const categories = color.domain().map(function(name) { // Nest the data into an array of objects with new keys
       return {
         name: name, // "name": the csv headers except date
-        values: data.map(function(d) { // "values": which has an array of the dates and ratings
+        values: places.features.map(function(d) { // maps each troupe to a color
           return {
             date: d.date,
-            rating: +(d[name]),
+            troupe: +(d[troupe]),
             };
         }),
         visible: true // all are visible by default
       };
     });
+    */
 
-      svg.selectAll('.flyer')
-      .data()
-      .filter(':nth-child(even)')
-      .style('stroke', 'darkblue');
+
+      // svg.selectAll('.flyer')
+      // .data()
+      // .filter(':nth-child(even)')
+      // .style('stroke', 'darkblue');
 
     svg.append('g').attr('class','arcs')
       .selectAll('path').data(arcLines)
@@ -184,20 +191,23 @@ document.addEventListener('DOMContentLoaded', () => {
       .selectAll('path').data(links)
       .enter().append('path')
       .attr('class','flyer')
-      .attr("id", d => d.srcProperties.Troupe); // Give each line ID of troupe identifier
+      .attr("id", d => d.srcProperties.troupe) // Give each line ID of troupe identifier
       .attr('d', function(d) { return swoosh(flying_arc(d)) });
 
-  issue.append("path")
+      /*
+      // example for color coded lines, need to adapt for
+  svg.append("path")
       .attr("class", "line")
       .style("pointer-events", "none") // Stop line interfering with cursor
       .attr("id", function(d) {
-        return "line-" + d.name.replace(" ", "").replace("/", ""); // Give line id of line-(insert issue name, with any spaces replaced with no spaces)
+        return "line-" + d.name.replace(" ", "").replace("/", ""); // Give line id of line-(insert name, with any spaces replaced with no spaces)
       })
       .attr("d", function(d) {
         return d.visible ? line(d.values) : null; // If array key "visible" = true then draw line, if not then don't
       })
       .attr("clip-path", "url(#clip)")//use clip path to make irrelevant part invisible
       .style("stroke", function(d) { return color(d.name); });
+      */
 
     refresh();
   }
