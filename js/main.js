@@ -40,14 +40,19 @@ document.addEventListener('DOMContentLoaded', () => {
     .defer(d3.json, '/vt_data')
     .await(ready);
 
-  const color = d3.scale.ordinal().range(["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"]);
+  // temp colors; TBD later
+  const color = d3.scale.ordinal().range(['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan']);
+
 
   function ready(error, world, places) {
+    // creates list of all the Vilna Troupes
     let troupeList = Array.from(new Set(places.features.map(feat => feat.properties.troupe)));
-    console.log(troupeList);
-    color.domain(troupeList.filter(function(key) { // Set the domain of the color ordinal scale to be filtered by troupe; needs work.
+    // Set the domain of the color ordinal scale, filtered by troupe.
+    color.domain(troupeList.filter(function(key) {
       return key;
     }));
+
+    // defines all globe fill and highlight gradient parameters
     let ocean_fill = svg.append('defs')
       .append('radialGradient')
       .attr('id', 'ocean_fill')
@@ -88,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .attr('stop-color', '#505962')
       .attr('stop-opacity','0.3')
 
+    // creates a blue circle with ocean color fill gradient
     svg.append('circle')
       .attr('cx', width / 2)
       .attr('cy', height / 2)
@@ -95,23 +101,27 @@ document.addEventListener('DOMContentLoaded', () => {
       .attr('class', 'noclicks')
       .style('fill', 'url(#ocean_fill)');
 
+    // draws all landmasses on globe surface
     svg.append('path')
       .datum(topojson.feature(world, world.objects.land))
       .attr('class', 'land noclicks')
       .attr('d', path);
 
+    // radial highlights on globe surface for 3d effect
     svg.append('circle')
       .attr('cx', width / 2).attr('cy', height / 2)
       .attr('r', proj.scale())
       .attr('class','noclicks')
       .style('fill', 'url(#globe_highlight)');
 
+    // radial shading on globe surface for 3d effect
     svg.append('circle')
       .attr('cx', width / 2).attr('cy', height / 2)
       .attr('r', proj.scale())
       .attr('class','noclicks')
       .style('fill', 'url(#globe_shading)');
 
+    // attaches city points on globe surface
     svg.append('g').attr('class','points')
       .selectAll('text').data(places.features)
       .enter().append('path')
@@ -181,18 +191,33 @@ document.addEventListener('DOMContentLoaded', () => {
       // .filter(':nth-child(even)')
       // .style('stroke', 'darkblue');
 
+    // appends arc flyer "shadows" that cast on the globe surface.
     svg.append('g').attr('class','arcs')
       .selectAll('path').data(arcLines)
-      .enter().append('path')
+      .enter()
+        .append('path')
         .attr('class','arc')
         .attr('d', path);
 
+    // appends flyer arcs that connect all cities in the travel path
     svg.append('g').attr('class','flyers')
       .selectAll('path').data(links)
-      .enter().append('path')
-      .attr('class','flyer')
-      .attr("id", d => d.srcProperties.troupe) // Give each line ID of troupe identifier
-      .attr('d', function(d) { return swoosh(flying_arc(d)) });
+      .enter()
+        .append('path')
+        .attr('class','flyer')
+        .attr("id", d => d.srcProperties.troupe) // Give each line ID of troupe identifier
+        .attr('d', d => swoosh(flying_arc(d)));
+
+    // appends legends for each troupe
+    svg.append('g')
+      .attr('class', 'legend')
+      .selectAll('text')
+      .data(troupeList)
+      .enter()
+        .append('text')
+        .text(function(d) { return '• ' + d; })
+        .attr('fill', function(d) { return color(d); })
+        .attr('y', function(d, i) { return 20 * (i + 1); });
 
       /*
       // example for color coded lines, need to adapt for
