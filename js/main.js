@@ -156,36 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
       arcLines.push(feature);
     });
 
-    // gets a list of all the troupe data; removes duplicates
-    // http://www.jstips.co/en/javascript/deduplicate-an-array/
-
-
-    // maps colors to each troupe; ### placeholder colors
-    // const colors = ['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan'];
-    // let count = -1;
-    // troupeList = troupeList)).map((troupe) => {
-    //   count++;
-    //   return [troupe, colors[count]];
-    // }
-
-    // via http://bl.ocks.org/DStruths/9c042e3a6b66048b5bd4
-    // code not yet stable
-    /*
-    const categories = color.domain().map(function(name) { // Nest the data into an array of objects with new keys
-      return {
-        name: name, // "name": the csv headers except date
-        values: places.features.map(function(d) { // maps each troupe to a color
-          return {
-            date: d.date,
-            troupe: +(d[troupe]),
-            };
-        }),
-        visible: true // all are visible by default
-      };
-    });
-    */
-
-
       // svg.selectAll('.flyer')
       // .data()
       // .filter(':nth-child(even)')
@@ -205,8 +175,13 @@ document.addEventListener('DOMContentLoaded', () => {
       .enter()
         .append('path')
         .attr('class','flyer')
-        .attr("id", d => d.srcProperties.troupe) // Give each line ID of troupe identifier
-        .attr('d', d => swoosh(flying_arc(d)));
+        // Give each line unique ID tied to troupe & coords
+        .attr("id", d => `${d.srcProperties.troupe}-${d.source}` )
+        .attr('d', d => swoosh(flying_arc(d)))
+        // colors each flyer according to troupe legend colors
+        .style('stroke', d => {
+          return color(troupeList.filter(t => d.srcProperties.troupe === t));
+        });
 
     // appends legends for each troupe
     svg.append('g')
@@ -220,18 +195,13 @@ document.addEventListener('DOMContentLoaded', () => {
         .attr('y', function(d, i) { return 20 * (i + 1); });
 
       /*
-      // example for color coded lines, need to adapt for
-  svg.append("path")
-      .attr("class", "line")
-      .style("pointer-events", "none") // Stop line interfering with cursor
-      .attr("id", function(d) {
-        return "line-" + d.name.replace(" ", "").replace("/", ""); // Give line id of line-(insert name, with any spaces replaced with no spaces)
-      })
+      // example for visibility filter for arc lines, need to build this one out
       .attr("d", function(d) {
-        return d.visible ? line(d.values) : null; // If array key "visible" = true then draw line, if not then don't
+        // If array key "visible" = true then draw line, if not then don't
+        return d.visible ? line(d) : null;
       })
-      .attr("clip-path", "url(#clip)")//use clip path to make irrelevant part invisible
-      .style("stroke", function(d) { return color(d.name); });
+      //use clip path attribute to make irrelevant part invisible
+      .attr("clip-path", "url(#clip)")
       */
 
     refresh();
