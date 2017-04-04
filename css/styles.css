@@ -42,39 +42,3 @@
     stroke-width:4;
     opacity: 1;
   }
-
-/* temp solution - colors of the fliers based on the troupe name*/
-
-#O {
-  stroke: darkblue;
-}
-
-#AA {
-  stroke: darkred;
-}
-
-#MVT {
-  stroke: darkgreen;
-}
-
-#AmRev {
-  stroke: goldenrod;
-}
-
-#Bronx {
-  stroke: purple;
-}
-
-#Belgium {
-  stroke: pink;
-}
-
-#Stein {
-  stroke: brown;
-}
-
-
-
-
-/*"O", "AA", "MVT", "AA ", "AmRev", "Bronx", "Belgium", "Stein"
-*/
