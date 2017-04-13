@@ -241,8 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (d.source) {
       start = d.source;
       end = d.target;
-    }
-    else {
+    } else {
       start = d.geometry.coordinates[0];
       end = d.geometry.coordinates[1];
     }
@@ -257,22 +256,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function locAlongArcs(start, end, loc) {
-    let interpolator = d3.geo.interpolate(start, end);
+    const interpolator = d3.geo.interpolate(start, end);
     return interpolator(loc);
   }
 
   // modified from http://bl.ocks.org/1392560
-  let m0, o0;
+  let m0,
+      o0;
   function mousedown() {
     m0 = [d3.event.pageX, d3.event.pageY];
     o0 = proj.rotate();
     d3.event.preventDefault();
   }
+
   function mousemove() {
     if (m0) {
-      let m1 = [d3.event.pageX, d3.event.pageY]
-        , o1 = [o0[0] + (m1[0] - m0[0]) / 6, o0[1] + (m0[1] - m1[1]) / 6];
-      o1[1] = o1[1] > 30 ? 30  :
+      const m1 = [d3.event.pageX, d3.event.pageY];
+      const o1 = [o0[0] + (m1[0] - m0[0]) / 6, o0[1] + (m0[1] - m1[1]) / 6];
+      o1[1] = o1[1] > 30 ? 30 :
               o1[1] < -30 ? -30 :
               o1[1];
       proj.rotate(o1);
@@ -280,6 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
       refresh();
     }
   }
+
   function mouseup() {
     if (m0) {
       mousemove();
