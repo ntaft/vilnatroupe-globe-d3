@@ -9,15 +9,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const width = 960;
   const height = 960;
 
+  // projection of map
   const proj = d3.geo.orthographic()
     .translate([width / 2, height / 2])
     .clipAngle(90)
     .scale(220 * 2);
 
+  // outer bounds of sky
   const sky = d3.geo.orthographic()
     .translate([width / 2, height / 2])
     .clipAngle(90)
-    .scale(280 * 2);
+    .scale(240 * 2);
 
   const path = d3.geo.path().projection(proj).pointRadius(2);
 
@@ -143,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // build geoJSON features from links array
-    links.forEach(function(e,i,a) {
+    links.forEach((e, i, a) => {
       const feature = {
         'type': 'Feature',
         'geometry': {
@@ -159,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // appends arc flyer "shadows" that cast on the globe surface.
-    svg.append('g').attr('class','arcs')
+    svg.append('g').attr('class', 'arcs')
       .selectAll('path').data(arcLines)
       .enter()
         .append('path')
@@ -173,7 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .append('path')
         .attr('class', 'flyer')
         // Give each line unique ID tied to troupe & coords
-        .attr("id", d => `${d.srcProperties.troupe}-${d.source}`)
+        .attr("id", d => `${d.srcProperties.date}-${d.source}`)
+        // .attr("class", d => `${d.srcProperties.troupe}`)
         .attr('d', d => swoosh(flyingArc(d)))
         // colors each flyer according to troupe legend colors
         .style('stroke', (d) => {
@@ -207,7 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function flyingArc(pts) {
     const source = pts.source;
     const target = pts.target;
-
   // bends the arc trajectory in relation to the starting point
     const mid = locAlongArcs(source, target, 0.7);
     const result = [
@@ -216,6 +218,17 @@ document.addEventListener('DOMContentLoaded', () => {
       proj(target)
     ];
     return result;
+  }
+  // calculates the distance between coordinates
+  // adapted from https://rosettacode.org/wiki/Haversine_formula#ES5
+  function haversine(coord1, coord2) {
+    // converts into radians
+    const [lat1, lon1, lat2, lon2] = [...coord1, ...coord2].map(deg => (deg / 180.0) * Math.PI);
+    const R = 6372.8; // r of earth, km
+    const [dLat, dLon] = [lat2 - lat1, lon2 - lon1];
+    const a = Math.sin(dLat / 2) * Math.sin(dLat /2) + Math.sin(dLon / 2) * Math.sin(dLon /2) * Math.cos(lat1) * Math.cos(lat2);
+    const c = 2 * Math.asin(Math.sqrt(a));
+    return R * c;
   }
 
   // redraws svg on rotation
