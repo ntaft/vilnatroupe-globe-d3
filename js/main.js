@@ -10,24 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const height = 960;
 
   // projection of map
-  const proj = d3.geo.orthographic()
+  const proj = d3.geoOrthographic()
     .translate([width / 2, height / 2])
     .clipAngle(90)
     .scale(220 * 2);
 
   // outer bounds of sky
-  const sky = d3.geo.orthographic()
+  const sky = d3.geoOrthographic()
     .translate([width / 2, height / 2])
     .clipAngle(90)
-    .scale(240 * 2);
+    .scale(225 * 2);
 
-  const path = d3.geo.path().projection(proj).pointRadius(2);
+  const path = d3.geoPath().projection(proj).pointRadius(2);
 
-  const swoosh = d3.svg.line()
-    .x(d => d[0])
-    .y(d => d[1])
-    .interpolate('cardinal')
-    .tension(0);
+
 
   const links = [];
   const arcLines = [];
@@ -37,22 +33,27 @@ document.addEventListener('DOMContentLoaded', () => {
     .attr('height', height)
     .on('mousedown', mousedown);
 
+  const swoosh = d3.line()
+    .x(d => d[0])
+    .y(d => d[1])
+    .curve(d3.curveCardinal);
+
   // defers data until dom load
-  queue()
+  d3.queue()
     .defer(d3.json, '/map_data')
     .defer(d3.json, '/vt_data')
     .await(ready);
 
   // temp colors; TBD later
-  const color = d3.scale.ordinal()
-    .range(['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan']);
+  const color = d3.scaleOrdinal(d3.schemeCategory10);
+    // .range(['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan']);
 
 
   function ready(error, world, places) {
     // creates list of all the Vilna Troupes
     const troupeList = Array.from(new Set(places.features.map(feat => feat.properties.troupe)));
     // Set the domain of the color ordinal scale, filtered by troupe.
-    color.domain(troupeList.filter(key => key));
+    color.domain(troupeList.map(key => key));
 
     // defines all globe fill and highlight gradient parameters
     const ocean_fill = svg.append('defs')
@@ -195,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .attr('y', (d, i) => 20 * (i + 1));
 
       /*
-      // example for visibility filter for arc lines, need to build this one out?
+      // example for visibility filter for arc lines, need to build this one out...
       .attr("d", function(d) {
         // If array key "visible" = true then draw line, if not then don't
         return d.visible ? line(d) : null;
@@ -214,21 +215,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const mid = locAlongArcs(source, target, 0.7);
     const result = [
       proj(source),
-      sky(mid),
+      [sky(mid)[0], sky(mid)[1] - haversine(source, target) / 1000],
       proj(target)
     ];
     return result;
   }
-  // calculates the distance between coordinates
+  // calculates the distance between coordinates using the haversine formula
   // adapted from https://rosettacode.org/wiki/Haversine_formula#ES5
   function haversine(coord1, coord2) {
     // converts into radians
     const [lat1, lon1, lat2, lon2] = [...coord1, ...coord2].map(deg => (deg / 180.0) * Math.PI);
     const R = 6372.8; // r of earth, km
     const [dLat, dLon] = [lat2 - lat1, lon2 - lon1];
-    const a = Math.sin(dLat / 2) * Math.sin(dLat /2) + Math.sin(dLon / 2) * Math.sin(dLon /2) * Math.cos(lat1) * Math.cos(lat2);
-    const c = 2 * Math.asin(Math.sqrt(a));
-    return R * c;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+    return R * 2 * Math.asin(Math.sqrt(a));
   }
 
   // redraws svg on rotation
@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // fades arc flyers as they approach horizon
   function fadeAtEdge(d) {
     const centerPos = proj.invert([width/2,height/2]);
-    const arc = d3.geo.greatArc();
+    const arc = d3.geoPath();
     let start,
         end;
     // function is called on 2 different data structures..
@@ -259,17 +259,17 @@ document.addEventListener('DOMContentLoaded', () => {
       end = d.geometry.coordinates[1];
     }
 
-    const startDist = 1.57 - arc.distance({ source: start, target: centerPos });
-    const endDist = 1.57 - arc.distance({ source: end, target: centerPos });
+    const startDist = 1.57 - d3.geoDistance(start, centerPos);
+    const endDist = 1.57 - d3.geoDistance(end, centerPos);
 
-    const fade = d3.scale.linear().domain([-.1, 0]).range([0, .1]);
+    const fade = d3.scaleLinear().domain([-.1, 0]).range([0, .1]);
     const dist = startDist < endDist ? startDist : endDist;
 
     return fade(dist);
   }
 
   function locAlongArcs(start, end, loc) {
-    const interpolator = d3.geo.interpolate(start, end);
+    const interpolator = d3.geoInterpolate(start, end);
     return interpolator(loc);
   }
 
