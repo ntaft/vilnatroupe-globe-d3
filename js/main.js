@@ -45,11 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
     .await(ready);
 
   // temp colors; TBD later
-  const color = d3.scaleOrdinal(d3.schemeCategory10);
-    // .range(['red', 'blue', 'green', 'yellow', 'brown', 'orange', 'purple', 'cyan']);
+
+    // .range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf']);
 
 
   function ready(error, world, places) {
+    const color = d3.scaleOrdinal().range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf']);
     // creates list of all the Vilna Troupes
     const troupeList = Array.from(new Set(places.features.map(feat => feat.properties.troupe)));
     // Set the domain of the color ordinal scale, filtered by troupe.
