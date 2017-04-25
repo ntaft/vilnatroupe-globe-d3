@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  const links = [];
-  const arcLines = [];
+  let links = [];
+  let arcLines = [];
 
   const svg = d3.select('body').append('svg')
     .attr('width', width)
@@ -43,11 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .defer(d3.json, '/map_data')
     .defer(d3.json, '/vt_data')
     .await(ready);
-
-  // temp colors; TBD later
-
-    // .range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf']);
-
 
   function ready(error, world, places) {
     const color = d3.scaleOrdinal().range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf']);
@@ -177,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .append('path')
         .attr('class', 'flyer')
         // Give each line unique ID tied to troupe & coords
-        .attr("id", d => `${d.srcProperties.date}-${d.source}`)
+        .attr("id", d => `${d.srcProperties.date}-${d.source}-${d.target}`)
         // .attr("class", d => `${d.srcProperties.troupe}`)
         .attr('d', d => swoosh(flyingArc(d)))
         // colors each flyer according to troupe legend colors
@@ -212,11 +207,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function flyingArc(pts) {
     const source = pts.source;
     const target = pts.target;
-  // bends the arc trajectory in relation to the starting point
+  // bends the arc trajectory in relation to the starting point and distance
     const mid = locAlongArcs(source, target, 0.7);
     const result = [
       proj(source),
-      [sky(mid)[0], sky(mid)[1] - haversine(source, target) / 1000],
+      [sky(mid)[0], sky(mid)[1] - (d3.geoDistance(source, target) * 10)],
       proj(target)
     ];
     return result;
