@@ -135,8 +135,8 @@ document.addEventListener('DOMContentLoaded', () => {
         links.push({
           source: places.features[i-1].geometry.coordinates,
           target: places.features[i].geometry.coordinates,
-          srcProperties: places.features[i].properties,
-          trgProperties: places.features[i-1].geometry.properties,
+          srcProperties: places.features[i - 1].properties,
+          trgProperties: places.features[i].geometry.properties,
         });
       }
     }
